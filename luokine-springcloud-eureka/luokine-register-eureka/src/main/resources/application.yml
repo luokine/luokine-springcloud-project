@@ -1,0 +1,15 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: luokine-eureka-service
+eureka:
+  instance: 127.0.0.1
+  server:
+    peer-node-read-timeout-ms: 300
+
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka

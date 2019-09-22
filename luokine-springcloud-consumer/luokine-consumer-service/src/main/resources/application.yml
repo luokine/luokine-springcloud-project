@@ -1,0 +1,19 @@
+server:
+  port: 8002
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/
+  instance:
+    prefer-ip-address: true
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 6000
+        readTimeout: 6000
+spring:
+  application:
+    name: luokine-consumer-service
