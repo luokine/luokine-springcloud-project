@@ -2,9 +2,7 @@ package com.luokine.service.web;
 
 import com.luokine.api.service.ProviderApiService;
 import com.luokine.api.vo.SysUser;
-import com.luokine.client.web.CustomerClient;
 import org.apache.commons.collections.CollectionUtils;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -21,15 +19,13 @@ public class ProviderController implements ProviderApiService {
 
     @Value("${server.port}")
     private String port;
-    @Autowired
-    private CustomerClient customerService;
+
 
     @Override
-    public String providerHello2() {
+    public String providerHello() {
         List<String> list=new ArrayList<>();
         CollectionUtils.isEmpty(list);
-        String resp = customerService.customerFei();
-        return "provider:port="+port+";"+resp;
+        return "provider:port="+port+";";
     }
 
     @Override
