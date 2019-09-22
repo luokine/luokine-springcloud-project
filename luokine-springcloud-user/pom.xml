@@ -40,7 +40,7 @@
             </dependency>
             <dependency>
                 <artifactId>luokine-provider-service</artifactId>
-                <groupId>com.luokine.service</groupId>
+                <groupId>com.luokine.springcloud</groupId>
                 <version>${luokine-springcloud-provider.version}</version>
             </dependency>
         </dependencies>
