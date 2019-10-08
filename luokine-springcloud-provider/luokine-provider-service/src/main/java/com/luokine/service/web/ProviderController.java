@@ -22,7 +22,7 @@ public class ProviderController implements ProviderApiService {
 
 
     @Override
-    public String providerHello() {
+    public String providerHello2() {
         List<String> list=new ArrayList<>();
         CollectionUtils.isEmpty(list);
         return "provider:port="+port+";";
