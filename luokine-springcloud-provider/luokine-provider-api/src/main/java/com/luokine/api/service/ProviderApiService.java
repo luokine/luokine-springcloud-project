@@ -10,7 +10,7 @@ import java.util.List;
 public interface ProviderApiService {
 
     @GetMapping("/hello")
-    public String providerHello2();
+    public String providerHello();
 
     @GetMapping("/getList")
     public List<SysUser> getList();
