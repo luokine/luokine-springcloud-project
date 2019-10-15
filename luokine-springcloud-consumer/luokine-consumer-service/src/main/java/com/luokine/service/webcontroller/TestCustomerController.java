@@ -2,6 +2,8 @@ package com.luokine.service.webcontroller;
 
 import com.luokine.api.vo.SysUser;
 import com.luokine.client.ProviderClientService;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,6 +18,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/consumer")
+@Api(tags = "customer Test接口")
 public class TestCustomerController {
 
     @Value("${server.port}")
@@ -24,17 +27,14 @@ public class TestCustomerController {
     @Autowired
     private ProviderClientService providerClientService;
 
+    @ApiOperation("获取customer 端口")
     @GetMapping("/web/customer")
     public String customerFei() {
         return "customer:"+port;
     }
 
 
-    @GetMapping("/web/customer2")
-    public String customerFei2() {
-        return "customer2:"+port;
-    }
-
+    @ApiOperation("获取provider 用户列表")
     @GetMapping("/getList")
     public List<SysUser> getList(){
         List<SysUser> list = providerClientService.getList();

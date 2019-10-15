@@ -5,7 +5,7 @@
     <parent>
         <artifactId>luokine-springcloud-consumer</artifactId>
         <groupId>com.luokine.springcloud</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>2.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -29,7 +29,6 @@
         <dependency>
             <groupId>com.luokine.springcloud</groupId>
             <artifactId>luokine-consumer-api-service</artifactId>
-            <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
