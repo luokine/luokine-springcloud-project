@@ -3,6 +3,8 @@ package com.luokine.user.service.webcontroller;
 import com.luokine.user.service.bean.SysUser;
 import com.luokine.user.service.service.SysUserService;
 import com.luokine.user.service.utils.TokenUtil;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -16,6 +18,7 @@ import java.util.Map;
  */
 @RequestMapping("/user")
 @RestController
+@Api(tags ="用户接口")
 public class UserLoginController {
     @Autowired
     private SysUserService userService;
@@ -23,6 +26,7 @@ public class UserLoginController {
 
 
     @PostMapping("/login")
+    @ApiOperation("登录")
     public Map<String,Object> login(String username, String password){
 
         Map<String,Object> map = new HashMap<>();
@@ -44,6 +48,7 @@ public class UserLoginController {
 
     }
 
+    @ApiOperation("获取用户列表")
     @GetMapping("/getList")
     public List<SysUser> getList(){
 
