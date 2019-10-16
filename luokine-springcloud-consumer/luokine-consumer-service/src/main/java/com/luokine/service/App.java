@@ -9,15 +9,14 @@ import org.springframework.context.annotation.ComponentScan;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
-@EnableSwagger2
-//@EnableSwaggerBootstrapUI
-@ComponentScan(basePackages = "com.luokine")
+//@EnableSwagger2
+@EnableSwaggerBootstrapUI
 @EnableFeignClients(basePackageClasses = {ProviderClientServicePKG.class},value = {})
 //@EnableEurekaClient
-public class ConsumerApplication {
+public class App {
 
     public static void main(String[] args) {
-        SpringApplication.run(ConsumerApplication.class, args);
+        SpringApplication.run(App.class, args);
     }
 
 }

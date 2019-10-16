@@ -33,8 +33,8 @@ public class TestCustomerController {
     @GetMapping("/web/customer")
     @ApiImplicitParam(value = "参数1", name = "param", required = false)
     public String customerFei(@RequestParam Integer param) {
-        System.out.println("param = " + param);
-        return "customer:"+port;
+        String format = String.format("customer:%s --->", param);
+        return format+port;
     }
 
 
