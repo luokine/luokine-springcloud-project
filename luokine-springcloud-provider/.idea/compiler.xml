@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="luokine-provider-api" />
         <module name="luokine-provider-api-service" />
         <module name="luokine-provider-client" />
         <module name="luokine-provider-service" />

@@ -14,6 +14,9 @@ feign:
       default:
         connectTimeout: 6000
         readTimeout: 6000
-spring:
-  application:
-    name: luokine-consumer-service
+
+#  swagger:
+#    enabled: true
+#    base-package: com.luokine.service.webcontroller
+#    contact:
+#      name: '组织机构服务'
