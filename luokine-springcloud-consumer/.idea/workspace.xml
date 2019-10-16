@@ -2,15 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad58b874-a4f2-4d94-bb8d-e0dbaf8b4c94" name="Default Changelist" comment="swagger2 依赖">
+      <change afterPath="$PROJECT_DIR$/luokine-consumer-service/src/main/resources/application-swagger.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/luokine-consumer-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/luokine-consumer-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/luokine-consumer-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/luokine-consumer-service/src/main/java/com/luokine/service/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/luokine-consumer-service/src/main/java/com/luokine/service/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/luokine-consumer-service/src/main/java/com/luokine/service/config/SwaggerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/luokine-consumer-service/src/main/java/com/luokine/service/config/SwaggerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/luokine-consumer-service/src/main/java/com/luokine/service/webcontroller/TestCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/luokine-consumer-service/src/main/java/com/luokine/service/webcontroller/TestCustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/luokine-consumer-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/luokine-consumer-service/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <list id="8efa82a1-27a3-46e2-906a-9b76a39ab6b6" name="ignore" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-eureka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-eureka/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-getway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-getway/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-image/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-image/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-image/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-image/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-image/luokine-image-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-image/luokine-image-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-image/luokine-image-service/src/main/java/luokine/image/service/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-image/luokine-image-service/src/main/java/luokine/image/service/controller/FileUploadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-image/luokine-image-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-image/luokine-image-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-provider/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/.idea/workspace.xml" afterDir="false" />
     </list>
-    <list id="8efa82a1-27a3-46e2-906a-9b76a39ab6b6" name="ignore" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/luokine-consumer-service/target/" />
@@ -81,32 +93,34 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="178" />
+          <entry key="java" value="219" />
           <entry key="txt" value="36" />
-          <entry key="xml" value="100" />
-          <entry key="yml" value="77" />
+          <entry key="xml" value="108" />
+          <entry key="yaml" value="6" />
+          <entry key="yml" value="137" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="178" />
+          <entry key="JAVA" value="219" />
           <entry key="PLAIN_TEXT" value="36" />
-          <entry key="XML" value="100" />
-          <entry key="YAML" value="77" />
+          <entry key="XML" value="108" />
+          <entry key="YAML" value="143" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="3" />
+          <entry key="class" value="4" />
           <entry key="java" value="1" />
-          <entry key="yml" value="1" />
+          <entry key="yaml" value="1" />
+          <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="3" />
+          <entry key="CLASS" value="4" />
           <entry key="JAVA" value="1" />
-          <entry key="YAML" value="1" />
+          <entry key="YAML" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -128,8 +142,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/luokine-consumer-service/src/main/java/com/luokine/service/webcontroller/TestCustomerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="31" column="29" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="29" />
+            <state relative-caret-position="318">
+              <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,37 +152,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-annotations/1.5.14/swagger-annotations-1.5.14.jar!/io/swagger/annotations/ApiOperation.class">
+        <entry file="file://$PROJECT_DIR$/luokine-consumer-service/src/main/java/com/luokine/service/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/luokine-consumer-client/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/luokine-consumer-api-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2">
-              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/luokine-consumer-service/src/main/java/com/luokine/service/ConsumerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="15" />
+            <state relative-caret-position="134">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -179,11 +166,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/luokine-consumer-service/src/main/java/com/luokine/service/config/SwaggerConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="35" column="54" lean-forward="true" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
-              <folding>
-                <element signature="e#954#965#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="360">
+              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -191,8 +175,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/luokine-consumer-service/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="18" column="34" lean-forward="true" selection-end-line="19" />
+            <state relative-caret-position="368">
+              <caret line="17" selection-start-line="17" selection-start-column="1" selection-end-line="21" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/luokine-consumer-service/src/main/resources/bootstrap.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -201,7 +194,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="314">
-              <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -218,8 +211,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/luokine-consumer-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="61" column="8" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="21" />
+            <state relative-caret-position="63">
+              <caret line="71" column="21" lean-forward="true" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/luokine-consumer-service/src/main/resources/application-swagger.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/battcn/swagger-spring-boot-autoconfigure/2.1.4-RELEASE/swagger-spring-boot-autoconfigure-2.1.4-RELEASE.jar!/com/battcn/boot/swagger/properties/SwaggerProperties.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="163" column="16" selection-start-line="163" selection-start-column="16" selection-end-line="163" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -246,6 +257,7 @@
     <findStrings>
       <find>2019-08</find>
       <find>&lt;groupId&gt;luokine-springcloud-consumer&lt;/groupId&gt;</find>
+      <find>SwaggerConfiguration</find>
     </findStrings>
     <replaceStrings>
       <replace>2019-06</replace>
@@ -268,7 +280,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/luokine-consumer-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/luokine-consumer-api-service/src/main/java/com/luokine/service/web/CustomerService.java" />
         <option value="$PROJECT_DIR$/luokine-consumer-service/src/main/java/com/luokine/service/web/CustomerController.java" />
         <option value="$PROJECT_DIR$/luokine-consumer-client/src/main/java/com/luokine/client/web/CustomerClientPKG.java" />
@@ -279,11 +290,13 @@
         <option value="$PROJECT_DIR$/luokine-consumer-client/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/luokine-consumer-service/src/main/java/com/luokine/service/controller/CustomerController.java" />
-        <option value="$PROJECT_DIR$/luokine-consumer-service/src/main/java/com/luokine/service/ConsumerApplication.java" />
-        <option value="$PROJECT_DIR$/luokine-consumer-service/src/main/resources/application-swagger.yml" />
         <option value="$PROJECT_DIR$/luokine-consumer-service/pom.xml" />
-        <option value="$PROJECT_DIR$/luokine-consumer-service/src/main/java/com/luokine/service/webcontroller/TestCustomerController.java" />
         <option value="$PROJECT_DIR$/luokine-consumer-service/src/main/java/com/luokine/service/config/SwaggerConfiguration.java" />
+        <option value="$PROJECT_DIR$/luokine-consumer-service/src/main/resources/bootstrap.yaml" />
+        <option value="$PROJECT_DIR$/luokine-consumer-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/luokine-consumer-service/src/main/resources/application-swagger.yml" />
+        <option value="$PROJECT_DIR$/luokine-consumer-service/src/main/java/com/luokine/service/webcontroller/TestCustomerController.java" />
+        <option value="$PROJECT_DIR$/luokine-consumer-service/src/main/java/com/luokine/service/ConsumerApplication.java" />
       </list>
     </option>
   </component>
@@ -340,6 +353,64 @@
               <item name="luokine-springcloud-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="luokine-consumer-service" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="luokine-springcloud-consumer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="luokine-springcloud-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="luokine-consumer-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="luokine-springcloud-consumer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="luokine-springcloud-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="luokine-consumer-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="luokine-springcloud-consumer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="luokine-springcloud-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="luokine-consumer-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="luokine-springcloud-consumer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="luokine-springcloud-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="luokine-consumer-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="luokine-springcloud-consumer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="luokine-springcloud-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="luokine-consumer-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="luokine-springcloud-consumer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="luokine-springcloud-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="luokine-consumer-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="webcontroller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="luokine-springcloud-consumer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="luokine-springcloud-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="luokine-consumer-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -355,7 +426,7 @@
     <property name="SearchEverywhereHistoryKey" value="ServiceModelToSwagger2Mapper&#9;PSI&#9;JAVA://springfox.documentation.swagger2.mappers.ServiceModelToSwagger2MapperImpl" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571214677519" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571219814259" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../luokine-springcloud-image" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -437,7 +508,7 @@
       <workItem from="1568950112211" duration="5391000" />
       <workItem from="1568963000879" duration="5998000" />
       <workItem from="1568972997044" duration="666000" />
-      <workItem from="1571109205792" duration="16649000" />
+      <workItem from="1571109205792" duration="21297000" />
     </task>
     <task id="LOCAL-00001" summary="增加swagger2 依赖">
       <created>1571127546776</created>
@@ -457,13 +528,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50288000" />
+    <option name="totallyTimeSpent" value="54936000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26126608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26126608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -473,18 +543,18 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946353" visible="true" weight="0.04524887" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49892703" weight="0.30429864" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005365" side_tool="true" visible="true" weight="0.04524887" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32918552" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50107294" side_tool="true" weight="0.44457012" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946353" weight="0.32918552" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32918552" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="13" visible="true" weight="0.68099546" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -578,40 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/luokine-consumer-service/src/main/resources/application-swagger.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/luokine-consumer-service/src/main/java/com/luokine/service/ConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/luokine-consumer-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="18" column="34" lean-forward="true" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/luokine-consumer-service/src/main/java/com/luokine/service/webcontroller/TestCustomerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/luokine-consumer-service/src/main/java/com/luokine/service/controller/CustomerController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
@@ -622,27 +658,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/battcn/swagger-spring-boot-autoconfigure/2.1.4-RELEASE/swagger-spring-boot-autoconfigure-2.1.4-RELEASE.jar!/com/battcn/boot/swagger/properties/SwaggerProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="163" column="16" selection-start-line="163" selection-start-column="16" selection-end-line="163" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/luokine-consumer-service/src/main/java/com/luokine/service/config/SwaggerConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="35" column="54" lean-forward="true" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
+        <state relative-caret-position="360">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-consumer-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="17" selection-start-line="17" selection-start-column="1" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-consumer-service/src/main/java/com/luokine/service/webcontroller/TestCustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
           <folding>
-            <element signature="e#954#965#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/luokine-consumer-service/src/main/resources/bootstrap.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        <state relative-caret-position="240">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-consumer-service/src/main/resources/application-swagger.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-consumer-service/src/main/java/com/luokine/service/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/luokine-consumer-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="61" column="8" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="21" />
+        <state relative-caret-position="63">
+          <caret line="71" column="21" lean-forward="true" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
         </state>
       </provider>
     </entry>

@@ -1,4 +1,4 @@
-package luokine.image.service.controller;
+package com.luokine.service.webcontroller;
 
 import com.alibaba.fastjson.JSON;
 import org.slf4j.Logger;
