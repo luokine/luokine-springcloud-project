@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad58b874-a4f2-4d94-bb8d-e0dbaf8b4c94" name="Default Changelist" comment="swagger2 依赖">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-eureka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-eureka/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-getway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-getway/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-image/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-image/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-image/luokine-image-service/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-image/luokine-image-service/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-provider/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -159,11 +159,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/luokine-consumer-service/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="17" selection-start-line="17" selection-start-column="1" selection-end-line="21" selection-end-column="21" />
+            <state relative-caret-position="218">
+              <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -195,7 +195,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/luokine-consumer-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="363">
@@ -413,7 +413,7 @@
     <property name="SearchEverywhereHistoryKey" value="ServiceModelToSwagger2Mapper&#9;PSI&#9;JAVA://springfox.documentation.swagger2.mappers.ServiceModelToSwagger2MapperImpl" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571220343450" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571221772698" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../luokine-springcloud-image" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -495,7 +495,7 @@
       <workItem from="1568950112211" duration="5391000" />
       <workItem from="1568963000879" duration="5998000" />
       <workItem from="1568972997044" duration="666000" />
-      <workItem from="1571109205792" duration="21721000" />
+      <workItem from="1571109205792" duration="22890000" />
     </task>
     <task id="LOCAL-00001" summary="增加swagger2 依赖">
       <created>1571127546776</created>
@@ -522,7 +522,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55360000" />
+    <option name="totallyTimeSpent" value="56529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -565,6 +565,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -675,13 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/luokine-consumer-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="17" selection-start-line="17" selection-start-column="1" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/luokine-consumer-service/src/main/java/com/luokine/service/webcontroller/TestCustomerController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
@@ -720,6 +723,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="81" column="37" lean-forward="true" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-consumer-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
         </state>
       </provider>
     </entry>
