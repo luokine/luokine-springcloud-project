@@ -2,53 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec89406d-76ca-40ba-bff3-594e77565c84" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../luokine-springcloud-image/luokine-image-service/src/main/java/luokine/image/service/controller/FileUploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../luokine-springcloud-image/luokine-image-service/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../luokine-springcloud-image/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-consumer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-consumer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-consumer/luokine-consumer-service/src/main/java/com/luokine/service/webcontroller/TestCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-consumer/luokine-consumer-service/src/main/java/com/luokine/service/webcontroller/TestCustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-consumer/luokine-springcloud-consumer.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/luokine-springcloud-eureka.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-getway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-getway/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-getway/luokine-getway-service/target/classes/com/luokine/getway/service/web/TestGetwayController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-getway/luokine-getway-service/target/classes/com/luokine/getway/service/web/TestGetwayController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-getway/luokine-springcloud-getway.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-provider/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-provider/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-api/target/classes/com/luokine/api/service/ProviderApiService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-api/target/classes/com/luokine/api/service/ProviderApiService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-api/target/classes/com/luokine/api/vo/SysUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-api/target/classes/com/luokine/api/vo/SysUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-api/target/luokine-provider-api-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-client/target/luokine-provider-client-1.2.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-client/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-client/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-service/target/classes/com/luokine/service/ProviderAapplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-service/target/classes/com/luokine/service/ProviderAapplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-service/target/classes/com/luokine/service/common/Receiver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-service/target/classes/com/luokine/service/common/Receiver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-service/target/classes/com/luokine/service/web/ProviderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-service/target/classes/com/luokine/service/web/ProviderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-service/target/luokine-provider-service-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-service/target/luokine-provider-service-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-provider/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-springcloud-user.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/filter/IntercepterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/filter/IntercepterConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/webcontroller/UserLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/webcontroller/UserLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/webcontroller/UserRegistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/webcontroller/UserRegistController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/service/impl/SysUserServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -224,7 +186,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="50" />
     <option name="y" value="100" />
     <option name="width" value="1040" />
@@ -305,7 +267,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571135119467" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571212450002" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../luokine-springcloud-getway" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -411,17 +373,18 @@
       <workItem from="1567672172228" duration="1936000" />
       <workItem from="1568717747460" duration="8601000" />
       <workItem from="1568950109150" duration="1780000" />
-      <workItem from="1571108378167" duration="1718000" />
+      <workItem from="1571108378167" duration="2617000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22829000" />
+    <option name="totallyTimeSpent" value="23728000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26555794" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26555794" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -443,7 +406,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32918552" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.24660634" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.24660634" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
