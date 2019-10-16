@@ -2,27 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad58b874-a4f2-4d94-bb8d-e0dbaf8b4c94" name="Default Changelist" comment="swagger2 依赖">
-      <change afterPath="$PROJECT_DIR$/luokine-consumer-service/src/main/resources/application-swagger.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/luokine-consumer-service/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/luokine-consumer-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/luokine-consumer-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/luokine-consumer-service/src/main/java/com/luokine/service/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/luokine-consumer-service/src/main/java/com/luokine/service/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/luokine-consumer-service/src/main/java/com/luokine/service/config/SwaggerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/luokine-consumer-service/src/main/java/com/luokine/service/config/SwaggerConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/luokine-consumer-service/src/main/java/com/luokine/service/webcontroller/TestCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/luokine-consumer-service/src/main/java/com/luokine/service/webcontroller/TestCustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/luokine-consumer-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/luokine-consumer-service/src/main/resources/application.yml" afterDir="false" />
-    </list>
-    <list id="8efa82a1-27a3-46e2-906a-9b76a39ab6b6" name="ignore" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-eureka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-eureka/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-getway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-getway/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-image/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-image/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-image/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-image/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-image/luokine-image-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-image/luokine-image-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-image/luokine-image-service/src/main/java/luokine/image/service/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-image/luokine-image-service/src/main/java/luokine/image/service/controller/FileUploadController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-image/luokine-image-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-image/luokine-image-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-image/luokine-image-service/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-image/luokine-image-service/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-provider/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/.idea/workspace.xml" afterDir="false" />
     </list>
+    <list id="8efa82a1-27a3-46e2-906a-9b76a39ab6b6" name="ignore" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/luokine-consumer-service/target/" />
@@ -94,7 +81,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="219" />
-          <entry key="txt" value="36" />
+          <entry key="txt" value="46" />
           <entry key="xml" value="108" />
           <entry key="yaml" value="6" />
           <entry key="yml" value="137" />
@@ -103,7 +90,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="219" />
-          <entry key="PLAIN_TEXT" value="36" />
+          <entry key="PLAIN_TEXT" value="46" />
           <entry key="XML" value="108" />
           <entry key="YAML" value="143" />
         </counts>
@@ -211,8 +198,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/luokine-consumer-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="71" column="21" lean-forward="true" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+            <state relative-caret-position="363">
+              <caret line="81" column="37" lean-forward="true" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -426,7 +413,7 @@
     <property name="SearchEverywhereHistoryKey" value="ServiceModelToSwagger2Mapper&#9;PSI&#9;JAVA://springfox.documentation.swagger2.mappers.ServiceModelToSwagger2MapperImpl" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571219814259" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571220343450" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../luokine-springcloud-image" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -508,7 +495,7 @@
       <workItem from="1568950112211" duration="5391000" />
       <workItem from="1568963000879" duration="5998000" />
       <workItem from="1568972997044" duration="666000" />
-      <workItem from="1571109205792" duration="21297000" />
+      <workItem from="1571109205792" duration="21721000" />
     </task>
     <task id="LOCAL-00001" summary="增加swagger2 依赖">
       <created>1571127546776</created>
@@ -524,14 +511,22 @@
       <option name="project" value="LOCAL" />
       <updated>1571134939044</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="完善swagger2">
+      <created>1571219754086</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571219754086</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54936000" />
+    <option name="totallyTimeSpent" value="55360000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26126608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -554,7 +549,7 @@
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946353" weight="0.32918552" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="13" visible="true" weight="0.68099546" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="13" visible="true" weight="0.13914028" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -577,7 +572,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加swagger2 依赖" />
     <MESSAGE value="添加 swagger2 配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加 swagger2 配置" />
+    <MESSAGE value="完善swagger2" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善swagger2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/luokine-springcloud-provider/luokine-provider-client/1.0-SNAPSHOT/luokine-provider-client-1.0-SNAPSHOT.jar!/com/luokine/client/ProviderClientService.class" />
@@ -722,8 +718,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/luokine-consumer-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="71" column="21" lean-forward="true" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+        <state relative-caret-position="363">
+          <caret line="81" column="37" lean-forward="true" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
         </state>
       </provider>
     </entry>
