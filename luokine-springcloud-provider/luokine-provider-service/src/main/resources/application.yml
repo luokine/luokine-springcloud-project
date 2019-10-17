@@ -14,14 +14,14 @@ feign:
       default:
         connectTimeout: 6000
         readTimeout: 6000
-spring:
-  application:
-    name: luokine-provider-service
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: admin
-    password: admin
+#spring:
+#  application:
+#    name: luokine-provider-service
+#  rabbitmq:
+#    host: localhost
+#    port: 5672
+#    username: admin
+#    password: admin
 #    virtual-host: /
 #    listener:
 #      simple:
