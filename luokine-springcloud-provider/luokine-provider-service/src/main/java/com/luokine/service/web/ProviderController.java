@@ -5,6 +5,8 @@ import com.luokine.api.service.ProviderApiService;
 import com.luokine.api.vo.SysUser;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections.CollectionUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -19,6 +21,7 @@ import java.util.List;
 @Slf4j
 public class ProviderController implements ProviderApiService {
 
+    private final Logger logger = LoggerFactory.getLogger(getClass());
 
     @Value("${server.port}")
     private String port;
@@ -45,6 +48,7 @@ public class ProviderController implements ProviderApiService {
         list.add(user1);
         list.add(user2);
         log.info("用户列表：[{}]", JSON.toJSONString(list));
+        logger.info("用户列表 -->logger：[{}]", JSON.toJSONString(list));
         return list;
     }
 }
