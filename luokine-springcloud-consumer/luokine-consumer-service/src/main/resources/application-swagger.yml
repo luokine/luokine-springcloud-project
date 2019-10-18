@@ -2,7 +2,8 @@ spring:
   swagger:
     licenseUrl: https://www.apache.org/licenses/LICENSE-2.0.html
     license: Apache License, Version 2.0
-    termsOfServiceUrl: https://github.com/dyc87112/spring-boot-starter-swagger
+#    termsOfServiceUrl: https://github.com/dyc87112/spring-boot-starter-swagger
+    termsOfServiceUrl: http://localhost:8002/doc.html
     contact:
       name: '消费者服务'
       email: 767050075@qq.com
