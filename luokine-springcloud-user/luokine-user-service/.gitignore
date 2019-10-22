@@ -1,31 +1,53 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**
-!**/src/test/**
-
-### STS ###
-.apt_generated
+##ignore this file##
+/target/
+.metadata/
 .classpath
 .factorypath
 .project
 .settings
-.springBeans
-.sts4-cache
+.recommenders
+ ##filter databfile、sln file##
+*.mdb
+*.ldb
+*.sln
+##class file##
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+# compression file
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.via
+*.tmp
+*.err
+# OS generated files #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+/logs/
+*.log
 
-### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
+*.sha1
+*.pom
+*.lastUpdated
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-
-### VS Code ###
-.vscode/
+maven*.xml
+*.war
