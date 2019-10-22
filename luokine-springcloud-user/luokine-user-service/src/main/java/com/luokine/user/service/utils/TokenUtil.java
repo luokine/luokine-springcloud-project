@@ -6,6 +6,7 @@ import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.interfaces.DecodedJWT;
 import com.luokine.user.service.bean.SysUser;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
@@ -13,7 +14,7 @@ import java.util.Date;
  * @create: 2019-06-17 19:24
  */
 public class TokenUtil {
-    private static final long EXPIRE_TIME= 10*60*1000;    //过期时间
+    private static final long EXPIRE_TIME= 30*60*1000;    //过期时间
     private static final String TOKEN_SECRET="token123";  //密钥
 
     /**
@@ -51,10 +52,11 @@ public class TokenUtil {
         try {
             JWTVerifier verifier = JWT.require(Algorithm.HMAC256(TOKEN_SECRET)).withIssuer("auth0").build();
             DecodedJWT jwt = verifier.verify(token);
-            System.out.println("认证通过：");
-            System.out.println("issuer: " + jwt.getIssuer());
-            System.out.println("username: " + jwt.getClaim("username").asString());
-            System.out.println("过期时间：      " + jwt.getExpiresAt());
+            System.out.println("认证通过："+jwt.getClaim("username").asString());
+//            System.out.println("issuer: " + jwt.getIssuer());
+//            System.out.println("username: " + jwt.getClaim("username").asString());
+            String format = new SimpleDateFormat("yyyy-MM-dd HH:mm").format(jwt.getExpiresAt());
+            System.out.println("过期时间：" + format);
             return true;
         } catch (Exception e){
             return false;
