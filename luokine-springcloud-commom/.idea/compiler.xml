@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="luokine-common-core" />
+        <module name="luokine-common-eureka" />
+        <module name="luokine-common-model" />
+        <module name="luokine-common-orm" />
+        <module name="luokine-common-security" />
+        <module name="luokine-common-swagger" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
