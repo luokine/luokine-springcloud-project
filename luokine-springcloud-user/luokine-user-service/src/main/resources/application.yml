@@ -6,6 +6,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:8761/eureka/
+    fetch-registry: false
   instance:
     prefer-ip-address: true
 feign:
@@ -15,15 +16,18 @@ feign:
         connectTimeout: 6000
         readTimeout: 6000
 spring:
-  application:
-    name: luokine-user-service
+#  application:
+#    name: luokine-user-service
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/luokine_user?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8
     username: root
     password: root
 mybatis-plus:
-  type-aliases-package: com.luokine.user.service.bean
+  type-aliases-package: com.luokine.user.bean
   mapper-locations: classpath*:mapping/**/*Mapper.xml
   configuration:
     map-underscore-to-camel-case: true
+logging:
+  level:
+    com.luokine.user.dao: debug

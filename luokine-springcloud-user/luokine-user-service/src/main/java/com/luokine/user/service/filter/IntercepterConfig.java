@@ -33,6 +33,7 @@ public class IntercepterConfig implements WebMvcConfigurer {
         excludePath.add("/swagger-resources/**");
         excludePath.add("/webjars/**");
         excludePath.add("/v2/**");
+        excludePath.add("*/api/v2/spans");
 //        excludePath.add("/swagger-ui.html/**");
         registry.addInterceptor(tokenInterceptor)
                 .addPathPatterns("/**")

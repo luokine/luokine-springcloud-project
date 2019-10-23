@@ -6,6 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="luokine-user-api" />
+        <module name="luokine-user-core" />
+        <module name="luokine-user-entity" />
         <module name="luokine-user-service" />
       </profile>
     </annotationProcessing>

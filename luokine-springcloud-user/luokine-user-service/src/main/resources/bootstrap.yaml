@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: luokine-user-service
+  profiles:
+    include: swagger
+#  cloud:
+#    kubernetes:
+#      reload:
+#        mode: event
+#        enabled: true
+#        strategy: refresh
+#      config:
+#        namespace: @k8s-namespace@
+#        sources:
+#          - name: 123123
+#      client:
+#        namespace: default
+
+  main:
+    allow-bean-definition-overriding: true

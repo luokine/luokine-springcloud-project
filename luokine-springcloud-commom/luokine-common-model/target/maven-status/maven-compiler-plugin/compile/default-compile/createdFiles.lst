@@ -1,0 +1,9 @@
+com\luokine\common\model\bo\FieldErrorInfo.class
+com\luokine\common\model\Vo\Result.class
+com\luokine\common\model\enums\ResponseCodeEnum.class
+com\luokine\common\model\page\QueryPageParam.class
+com\luokine\common\model\Vo\Resp.class
+com\luokine\common\model\Vo\RestStatus.class
+com\luokine\common\model\bo\UpdateResult.class
+com\luokine\common\model\page\QueryPageResult.class
+com\luokine\common\model\Vo\Result$ResultBuilder.class

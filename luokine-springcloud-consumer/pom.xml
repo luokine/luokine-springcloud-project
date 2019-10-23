@@ -15,6 +15,7 @@
     <properties>
         <luokine-provider-client.version>2.0-SNAPSHOT</luokine-provider-client.version>
         <luokine-consumer-api.version>2.0-SNAPSHOT</luokine-consumer-api.version>
+        <luokine-user-api.version>2.0-SNAPSHOT</luokine-user-api.version>
     </properties>
     <modules>
         <module>luokine-consumer-service</module>
@@ -38,6 +39,11 @@
                 <groupId>com.luokine.springcloud</groupId>
                 <artifactId>luokine-provider-client</artifactId>
                 <version>${luokine-provider-client.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.luokine.springcloud</groupId>
+                <artifactId>luokine-user-api</artifactId>
+                <version>${luokine-user-api.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

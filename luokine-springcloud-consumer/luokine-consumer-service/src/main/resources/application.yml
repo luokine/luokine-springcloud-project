@@ -19,4 +19,18 @@ feign:
 #    enabled: true
 #    base-package: com.luokine.service.webcontroller
 #    contact:
-#      name: '组织机构服务'
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/luokine_user?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: root
+  mybatis-plus:
+    type-aliases-package: com.luokine.service.dao
+    mapper-locations: classpath*:mapping/**/*Mapper.xml
+    configuration:
+      map-underscore-to-camel-case: true
+#  security:
+#    user:
+#      name: admin
+#      password: admin

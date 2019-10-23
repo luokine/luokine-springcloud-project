@@ -1,18 +1,20 @@
 package com.luokine.service.webcontroller;
 
 import com.alibaba.fastjson.JSON;
+import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.luokine.api.vo.SysUser;
 import com.luokine.client.ProviderClientService;
+import com.luokine.common.model.Vo.Result;
+import com.luokine.service.service.ConsumerService;
+import com.luokine.user.bean.UserInfo;
+import com.luokine.user.query.UserVo;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -32,6 +34,9 @@ public class TestCustomerController {
     @Autowired
     private ProviderClientService providerClientService;
 
+    @Autowired
+    private ConsumerService consumerService;
+
     @ApiOperation("获取customer 端口")
     @GetMapping("/web/customer")
     @ApiImplicitParam(value = "参数1", name = "param", required = false)
@@ -46,6 +51,18 @@ public class TestCustomerController {
     @GetMapping("/getList")
     public List<SysUser> getList(){
         List<SysUser> list = providerClientService.getList();
+        UserVo userVo=new UserVo();
+        userVo.setCurrent(3l);
+        userVo.setSize(5l);
+        Result<IPage<UserInfo>> listPage = consumerService.getUserListPage(userVo);
+        log.info("分页获取用户列表->:[{}]",JSON.toJSONString(listPage));
         return list;
+    }
+
+    @ApiOperation("分页获取用户列表")
+    @PostMapping("/getUsetListPage")
+    public Result<IPage<UserInfo>> getUserListPage(@RequestBody UserVo userVo){
+        Result<IPage<UserInfo>> userListPage = consumerService.getUserListPage(userVo);
+        return userListPage;
     }
 }

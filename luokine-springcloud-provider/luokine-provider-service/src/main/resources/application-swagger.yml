@@ -17,7 +17,7 @@ spring:
         parameterType: header
         modelRef: string
         required: true
-      - name: X-Request-Scope
+      - name: User-Info
         description: '请求范围（provider、user）'
         parameterType: header
         modelRef: string

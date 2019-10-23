@@ -3,13 +3,48 @@
   <component name="ChangeListManager">
     <list default="true" id="8d12b7cf-a8fd-4270-8bcd-6d703cfc2835" name="Default Changelist" comment="修改 pom依赖">
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-consumer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-consumer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-consumer/build/luokine-consumer-service.json" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-consumer/build/luokine-consumer-service.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-consumer/luokine-consumer-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-consumer/luokine-consumer-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-consumer/luokine-consumer-service/src/main/java/com/luokine/service/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-consumer/luokine-consumer-service/src/main/java/com/luokine/service/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-consumer/luokine-consumer-service/src/main/java/com/luokine/service/webcontroller/TestCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-consumer/luokine-consumer-service/src/main/java/com/luokine/service/webcontroller/TestCustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-consumer/luokine-consumer-service/src/main/resources/application-swagger.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-consumer/luokine-consumer-service/src/main/resources/application-swagger.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-consumer/luokine-consumer-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-consumer/luokine-consumer-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-consumer/luokine-consumer-service/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-consumer/luokine-consumer-service/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-consumer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-eureka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-eureka/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-getway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-getway/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-image/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-image/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/luokine-provider-service.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/luokine-provider-service.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/luokine-provider-service/src/main/resources/application-swagger.yml" beforeDir="false" afterPath="$PROJECT_DIR$/luokine-provider-service/src/main/resources/application-swagger.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/VO/UserVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-entity/src/main/java/com/luokine/user/query/UserVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/bean/SysUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/bean/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-entity/src/main/java/com/luokine/user/bean/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/config/SwaggerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/config/SwaggerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/dao/BaseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/dao/BaseMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-core/src/main/java/com/luokine/user/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/filter/IntercepterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/filter/IntercepterConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/filter/TokenInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/filter/TokenInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/service/BaseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/service/SysUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/service/impl/SysUserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/utils/TokenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/utils/TokenUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/webcontroller/UserLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/controller/UserLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/webcontroller/UserRegistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/java/com/luokine/user/service/controller/UserRegistController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/luokine-user-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/pom.xml" afterDir="false" />
     </list>
-    <list id="06bbb43a-0fa5-4f88-9ea4-90f174044273" name="ignore" comment="ignore" />
+    <list id="06bbb43a-0fa5-4f88-9ea4-90f174044273" name="ignore" comment="ignore">
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-image/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-image/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/luokine-provider-service/target/classes/com/luokine/service/ProviderAapplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/luokine-provider-service/target/classes/com/luokine/service/web/ChannelsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/luokine-provider-service/target/classes/com/luokine/service/web/ChannelsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/luokine-provider-service/target/classes/com/luokine/service/web/ProviderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/luokine-provider-service/target/classes/com/luokine/service/web/ProviderController.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/luokine-provider-service/target/" />
     <ignored path="$PROJECT_DIR$/luokine-provider-api-service/target/" />
@@ -83,30 +118,45 @@
     <session id="1601761026">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="txt" value="14" />
-          <entry key="xml" value="32" />
+          <entry key="java" value="42" />
+          <entry key="txt" value="23" />
+          <entry key="xml" value="85" />
+          <entry key="yml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="14" />
-          <entry key="XML" value="32" />
+          <entry key="JAVA" value="42" />
+          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="XML" value="85" />
+          <entry key="YAML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="class" value="1" />
+          <entry key="java" value="6" />
+          <entry key="json" value="2" />
+          <entry key="xml" value="2" />
+          <entry key="yaml" value="1" />
+          <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="6" />
+          <entry key="JSON" value="2" />
+          <entry key="XML" value="2" />
+          <entry key="YAML" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -114,22 +164,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/luokine-provider-service/src/main/java/com/luokine/service/web/ProviderController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="31" column="32" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/luokine-provider-service/src/main/java/com/luokine/service/web/ChannelsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+            <state relative-caret-position="300">
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -137,50 +175,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/luokine-provider-api/src/main/java/com/luokine/api/service/ProviderApiService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/luokine-provider-api/src/main/java/com/luokine/api/vo/SysUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/luokine-provider-client/src/main/java/com/luokine/client/ProviderClientService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/luokine-provider-client/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="40" column="44" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -188,44 +187,89 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/luokine-provider-service/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/luokine-provider-api/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="13" column="25" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="25" />
+            <state relative-caret-position="510">
+              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/luokine-provider-service/src/main/resources/application-swagger.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/luokine-provider-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+            <state relative-caret-position="-1500">
+              <caret line="50" column="54" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/luokine-provider-service/src/main/java/com/luokine/service/ProviderAapplication.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="-30">
+              <caret line="14" column="46" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/luokine-provider-client/src/main/java/com/luokine/client/ProviderClientServicePKG.java">
+        <entry file="file://$PROJECT_DIR$/luokine-provider-service/src/main/resources/logback-spring.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="41" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="41" />
+            <state relative-caret-position="600">
+              <caret line="68" column="18" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/luokine-provider-service/src/main/java/com/luokine/service/config/RabbitConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/luokine-provider-service/src/main/resources/bootstrap.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/luokine-provider-service/src/main/java/com/luokine/service/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/battcn/swagger-spring-boot-autoconfigure/2.1.4-RELEASE/swagger-spring-boot-autoconfigure-2.1.4-RELEASE.jar!/com/battcn/boot/swagger/properties/SwaggerProperties.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2460">
+              <caret line="135" column="16" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/luokine-provider-service/target/classes/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -276,18 +320,23 @@
         <option value="$PROJECT_DIR$/luokine-provider-service/src/main/java/com/luokine/service/LuokineProviderAapplication.java" />
         <option value="$PROJECT_DIR$/luokine-provider-service/src/main/java/com/luokine/service/common/RabbitMQEnum.java" />
         <option value="$PROJECT_DIR$/luokine-provider-service/src/main/java/com/luokine/service/common/RabbitMQPKG.java" />
-        <option value="$PROJECT_DIR$/luokine-provider-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/luokine-provider-service/src/main/java/com/luokine/service/common/Receiver.java" />
         <option value="$PROJECT_DIR$/luokine-provider-service/src/main/java/com/luokine/service/common/Sender.java" />
         <option value="$PROJECT_DIR$/luokine-provider-service/src/main/java/com/luokine/service/config/RabbitConfig.java" />
-        <option value="$PROJECT_DIR$/luokine-provider-service/src/main/java/com/luokine/service/web/ChannelsController.java" />
         <option value="$PROJECT_DIR$/luokine-provider-client/src/main/java/com/luokine/client/ProviderClientService.java" />
         <option value="$PROJECT_DIR$/luokine-provider-api/src/main/java/com/luokine/api/service/ProviderApiService.java" />
-        <option value="$PROJECT_DIR$/luokine-provider-service/src/main/java/com/luokine/service/web/ProviderController.java" />
         <option value="$PROJECT_DIR$/luokine-provider-api/pom.xml" />
         <option value="$PROJECT_DIR$/luokine-provider-client/pom.xml" />
-        <option value="$PROJECT_DIR$/luokine-provider-service/pom.xml" />
+        <option value="$PROJECT_DIR$/luokine-provider-service/src/main/resources/bootstrap.yaml" />
+        <option value="$PROJECT_DIR$/luokine-provider-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/luokine-provider-service/src/main/java/com/luokine/service/ProviderAapplication.java" />
+        <option value="$PROJECT_DIR$/luokine-provider-service/src/main/java/com/luokine/service/App.java" />
+        <option value="$PROJECT_DIR$/luokine-provider-service/src/main/java/com/luokine/service/web/ChannelsController.java" />
+        <option value="$PROJECT_DIR$/luokine-provider-service/src/main/java/com/luokine/service/web/ProviderController.java" />
+        <option value="$PROJECT_DIR$/luokine-provider-service/src/main/resources/logback-spring.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/luokine-provider-service/pom.xml" />
+        <option value="$PROJECT_DIR$/luokine-provider-service/src/main/resources/application-swagger.yml" />
       </list>
     </option>
   </component>
@@ -312,13 +361,23 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="luokine-provider-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="luokine-provider-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="50" />
-    <option name="y" value="100" />
+    <option name="x" value="549" />
+    <option name="y" value="154" />
     <option name="width" value="1040" />
     <option name="height" value="810" />
   </component>
@@ -330,6 +389,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -340,66 +402,6 @@
             <path>
               <item name="luokine-springcloud-provider" type="b2602c69:ProjectViewProjectNode" />
               <item name="luokine-springcloud-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="luokine-provider-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luokine-springcloud-provider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luokine-springcloud-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="luokine-provider-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luokine-springcloud-provider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luokine-springcloud-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="luokine-provider-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luokine-springcloud-provider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luokine-springcloud-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="luokine-provider-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luokine-springcloud-provider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luokine-springcloud-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="luokine-provider-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luokine-springcloud-provider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luokine-springcloud-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="luokine-provider-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luokine-springcloud-provider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luokine-springcloud-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="luokine-provider-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luokine-springcloud-provider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luokine-springcloud-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="luokine-provider-client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luokine-springcloud-provider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luokine-springcloud-provider" type="462c0819:PsiDirectoryNode" />
               <item name="luokine-provider-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -438,17 +440,12 @@
               <item name="luokine-provider-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -458,9 +455,9 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568972236440" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571302329290" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../luokine-springcloud-user" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -470,6 +467,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ide-workspace\luokine-springcloud-project\luokine-springcloud-provider\luokine-provider-service\src\main\resources" />
       <recent name="D:\ide-workspace\luokine-springcloud-provider\luokine-provider-service\src\main\resources" />
     </key>
   </component>
@@ -491,25 +489,25 @@
     </option>
     <option name="contentProportion" value="0.1285558" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ProviderAapplication">
-    <configuration name="LuokineProviderAapplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+  <component name="RunManager">
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="luokine-provider-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luokine.service.LuokineProviderAapplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luokine.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luokine.service.App" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProviderAapplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="luokine-provider-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luokine.service.ProviderAapplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Spring Boot.LuokineProviderAapplication (1)" />
-      <item itemvalue="Spring Boot.ProviderAapplication" />
-    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.App" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -532,6 +530,10 @@
       <workItem from="1568962725972" duration="5859000" />
       <workItem from="1568972829831" duration="764000" />
       <workItem from="1571108934205" duration="6880000" />
+      <workItem from="1571282151347" duration="4285000" />
+      <workItem from="1571308407415" duration="1095000" />
+      <workItem from="1571370002729" duration="9177000" />
+      <workItem from="1571726569088" duration="2504000" />
     </task>
     <task id="LOCAL-00001" summary="修改 pom依赖">
       <created>1571135071697</created>
@@ -540,17 +542,37 @@
       <option name="project" value="LOCAL" />
       <updated>1571135071697</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="增加 日志依赖">
+      <created>1571283235032</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571283235032</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改 pom依赖">
+      <created>1571283296227</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571283296227</updated>
+    </task>
+    <task id="LOCAL-00004" summary="修改 pom依赖">
+      <created>1571395971579</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571395971579</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44001000" />
+    <option name="totallyTimeSpent" value="61062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30096567" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2671674" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -568,14 +590,14 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.1923077" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3122172" />
       <window_info anchor="bottom" id="Spring" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.65158373" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.5361991" />
       <window_info anchor="right" id="Bean Validation" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Maven Projects" order="2" weight="0.49409872" />
+      <window_info anchor="right" id="Maven Projects" order="2" weight="0.28165236" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
       <window_info anchor="right" id="Palette" order="5" />
@@ -593,6 +615,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加 日志依赖" />
     <MESSAGE value="修改 pom依赖" />
     <option name="LAST_COMMIT_MESSAGE" value="修改 pom依赖" />
   </component>
@@ -608,13 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/luokine-provider-service/src/main/java/com/luokine/service/config/RabbitConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -641,20 +657,31 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/luokine-springcloud-provider/luokine-provider-api-service/1.0-SNAPSHOT/luokine-provider-api-service-1.0-SNAPSHOT.jar!/com/luokine/api/service/ProviderApiService.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/luokine-springcloud-consumer/luokine-consumer-client/1.0-SNAPSHOT/luokine-consumer-client-1.0-SNAPSHOT.jar!/com/luokine/client/web/CustomerClient.class" />
+    <entry file="file://$PROJECT_DIR$/luokine-provider-api/src/main/java/com/luokine/api/vo/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/luokine-provider-client/src/main/java/com/luokine/client/ProviderClientService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/luokine-provider-service/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/luokine-provider-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        <state relative-caret-position="1200">
+          <caret line="40" column="44" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-provider-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -665,72 +692,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/luokine-provider-api/src/main/java/com/luokine/api/vo/SysUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/build/luokine-provider-service.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/luokine-provider-client/pom.xml">
+    <entry file="file://$PROJECT_DIR$/luokine-provider-service/src/main/java/com/luokine/service/web/ProviderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="40" column="44" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/luokine-provider-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/luokine-provider-api/src/main/java/com/luokine/api/service/ProviderApiService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="1170">
+          <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/luokine-provider-service/src/main/java/com/luokine/service/ProviderAapplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/luokine-provider-service/src/main/java/com/luokine/service/web/ChannelsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        <state relative-caret-position="300">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/luokine-provider-service/src/main/java/com/luokine/service/web/ProviderController.java">
+    <entry file="file://$PROJECT_DIR$/luokine-provider-api/src/main/java/com/luokine/api/service/ProviderApiService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="31" column="32" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="32" />
+        <state relative-caret-position="180">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-provider-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-provider-service/src/main/resources/bootstrap.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-provider-service/src/main/java/com/luokine/service/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/battcn/swagger-spring-boot-autoconfigure/2.1.4-RELEASE/swagger-spring-boot-autoconfigure-2.1.4-RELEASE.jar!/com/battcn/boot/swagger/properties/SwaggerProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2460">
+          <caret line="135" column="16" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-provider-service/target/classes/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/luokine-provider-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        <state relative-caret-position="-1500">
+          <caret line="50" column="54" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-provider-service/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="68" column="18" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-provider-service/src/main/java/com/luokine/service/config/RabbitConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-provider-service/src/main/resources/application-swagger.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
         </state>
       </provider>
     </entry>

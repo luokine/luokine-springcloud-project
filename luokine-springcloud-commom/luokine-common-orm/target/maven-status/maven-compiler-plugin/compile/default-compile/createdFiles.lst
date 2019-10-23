@@ -1,0 +1,4 @@
+com\luokine\common\orm\config\MyBatisPlusConfig.class
+com\luokine\common\orm\service\impl\BaseServiceImpl.class
+com\luokine\common\orm\mapper\BaseMapper.class
+com\luokine\common\orm\service\BaseService.class
