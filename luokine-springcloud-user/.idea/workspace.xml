@@ -2,50 +2,79 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="930206f8-ffc5-4501-8e79-d0fa889c3355" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-core/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-core/target/luokine-common-core-1.0-SNAPSHOT-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-core/target/luokine-common-core-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-core/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-eureka/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-eureka/target/luokine-common-eureka-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-eureka/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-model/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-model/src/main/java/com/luokine/common/model/Vo/Resp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-model/src/main/java/com/luokine/common/model/Vo/RestStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-model/src/main/java/com/luokine/common/model/Vo/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-model/src/main/java/com/luokine/common/model/bo/FieldErrorInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-model/src/main/java/com/luokine/common/model/bo/UpdateResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-model/src/main/java/com/luokine/common/model/enums/ResponseCodeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-model/src/main/java/com/luokine/common/model/page/QueryPageParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-model/src/main/java/com/luokine/common/model/page/QueryPageResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-model/target/classes/com/luokine/common/model/Vo/Resp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-model/target/classes/com/luokine/common/model/Vo/RestStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-model/target/classes/com/luokine/common/model/Vo/Result$ResultBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-model/target/classes/com/luokine/common/model/Vo/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-model/target/classes/com/luokine/common/model/bo/FieldErrorInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-model/target/classes/com/luokine/common/model/bo/UpdateResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-model/target/classes/com/luokine/common/model/enums/ResponseCodeEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-model/target/classes/com/luokine/common/model/page/QueryPageParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-model/target/classes/com/luokine/common/model/page/QueryPageResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-model/target/luokine-common-model-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-model/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-orm/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-orm/src/main/java/com/luokine/common/orm/config/MyBatisPlusConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-orm/src/main/java/com/luokine/common/orm/mapper/BaseMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-orm/src/main/java/com/luokine/common/orm/service/BaseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-orm/src/main/java/com/luokine/common/orm/service/impl/BaseServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-orm/target/classes/com/luokine/common/orm/config/MyBatisPlusConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-orm/target/classes/com/luokine/common/orm/mapper/BaseMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-orm/target/classes/com/luokine/common/orm/service/BaseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-orm/target/classes/com/luokine/common/orm/service/impl/BaseServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-orm/target/luokine-common-orm-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-orm/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-orm/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-orm/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-security/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-security/src/main/java/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-security/target/classes/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-security/target/luokine-common-security-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-security/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-security/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-security/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-security/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-security/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-swagger/luokine-common-swagger.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-swagger/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-swagger/target/luokine-common-swagger-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-common-swagger/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-springcloud-commom.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-consumer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-consumer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-consumer/build/luokine-consumer-service.json" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-consumer/build/luokine-consumer-service.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-consumer/luokine-consumer-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-consumer/luokine-consumer-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-consumer/luokine-consumer-service/src/main/java/com/luokine/service/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-consumer/luokine-consumer-service/src/main/java/com/luokine/service/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-consumer/luokine-consumer-service/src/main/java/com/luokine/service/webcontroller/TestCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-consumer/luokine-consumer-service/src/main/java/com/luokine/service/webcontroller/TestCustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-consumer/luokine-consumer-service/src/main/resources/application-swagger.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-consumer/luokine-consumer-service/src/main/resources/application-swagger.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-consumer/luokine-consumer-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-consumer/luokine-consumer-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-consumer/luokine-consumer-service/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-consumer/luokine-consumer-service/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-consumer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-eureka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-eureka/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-provider/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/build/luokine-provider-service.json" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-provider/build/luokine-provider-service.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-service/src/main/resources/application-swagger.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-service/src/main/resources/application-swagger.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/luokine-user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/luokine-user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/VO/UserVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/luokine-user-entity/src/main/java/com/luokine/user/query/UserVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/bean/SysUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/bean/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/luokine-user-entity/src/main/java/com/luokine/user/bean/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/config/SwaggerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/config/SwaggerConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/dao/BaseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/dao/BaseMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/luokine-user-core/src/main/java/com/luokine/user/dao/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/filter/IntercepterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/filter/IntercepterConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/filter/TokenInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/filter/TokenInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/service/BaseService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/service/SysUserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/service/impl/SysUserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/utils/TokenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/utils/TokenUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/webcontroller/UserLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/controller/UserLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/webcontroller/UserRegistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/controller/UserRegistController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/luokine-user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/luokine-user-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/luokine-user-service.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/luokine-user-service.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
-    <list id="cb76cbd7-ff77-4561-8041-7719a81d0c56" name="ignore" comment="">
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-consumer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-consumer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-image/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-image/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-service/target/classes/com/luokine/service/ProviderAapplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-service/target/classes/com/luokine/service/web/ChannelsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-service/target/classes/com/luokine/service/web/ChannelsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-service/target/classes/com/luokine/service/web/ProviderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-provider/luokine-provider-service/target/classes/com/luokine/service/web/ProviderController.class" afterDir="false" />
-    </list>
+    <list id="cb76cbd7-ff77-4561-8041-7719a81d0c56" name="ignore" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/luokine-user-service/target/" />
@@ -117,7 +146,8 @@
           <entry key="java" value="128" />
           <entry key="json" value="1" />
           <entry key="pom" value="1" />
-          <entry key="xml" value="34" />
+          <entry key="sql" value="1" />
+          <entry key="xml" value="35" />
           <entry key="yaml" value="5" />
           <entry key="yml" value="12" />
         </counts>
@@ -128,7 +158,8 @@
           <entry key="JAVA" value="128" />
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="35" />
+          <entry key="SQL" value="1" />
+          <entry key="XML" value="36" />
           <entry key="YAML" value="17" />
         </counts>
       </usages-collector>
@@ -136,7 +167,7 @@
         <counts>
           <entry key="java" value="1850" />
           <entry key="txt" value="47" />
-          <entry key="xml" value="649" />
+          <entry key="xml" value="650" />
           <entry key="yaml" value="4" />
           <entry key="yml" value="178" />
         </counts>
@@ -145,7 +176,7 @@
         <counts>
           <entry key="JAVA" value="1850" />
           <entry key="PLAIN_TEXT" value="47" />
-          <entry key="XML" value="649" />
+          <entry key="XML" value="650" />
           <entry key="YAML" value="182" />
         </counts>
       </usages-collector>
@@ -167,6 +198,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="780">
               <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -231,11 +271,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            <state relative-caret-position="390">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -247,7 +287,7 @@
         <entry file="file://$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/config/SecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="821">
-              <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#862#863#0" expanded="true" />
@@ -264,15 +304,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
               <caret line="49" column="54" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/luokine-user-entity/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -377,11 +408,11 @@
         <option value="$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/filter/IntercepterConfig.java" />
         <option value="$PROJECT_DIR$/luokine-user-api/src/main/java/com/luokine/user/client/UserInfoServiceClient.java" />
         <option value="$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/filter/TokenInterceptor.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/luokine-user-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/luokine-user-service/pom.xml" />
         <option value="$PROJECT_DIR$/luokine-user-core/pom.xml" />
         <option value="$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -390,102 +421,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/../luokine-springcloud-consumer/.idea/workspace.xml">
-      <ranges>
-        <range start1="3" end1="4" start2="3" end2="4" changelist="cb76cbd7-ff77-4561-8041-7719a81d0c56" />
-        <range start1="5" end1="5" start2="5" end2="13" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="6" end1="8" start2="14" end2="14" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="9" end1="9" start2="15" end2="19" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="10" end1="10" start2="20" end2="46" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="11" end1="12" start2="47" end2="47" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="76" end1="78" start2="111" end2="117" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="82" end1="85" start2="121" end2="124" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="86" end1="87" start2="125" end2="126" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="91" end1="95" start2="130" end2="134" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="99" end1="103" start2="138" end2="145" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="107" end1="110" start2="149" end2="155" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="119" end1="121" start2="164" end2="166" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="131" end1="133" start2="176" end2="178" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="141" end1="142" start2="186" end2="187" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="143" end1="148" start2="188" end2="190" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="153" end1="154" start2="195" end2="196" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="155" end1="157" start2="197" end2="199" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="161" end1="163" start2="203" end2="205" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="164" end1="166" start2="206" end2="208" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="171" end1="172" start2="213" end2="214" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="173" end1="175" start2="215" end2="220" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="180" end1="181" start2="225" end2="226" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="182" end1="184" start2="227" end2="229" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="189" end1="190" start2="234" end2="235" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="191" end1="193" start2="236" end2="238" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="198" end1="199" start2="243" end2="244" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="200" end1="202" start2="245" end2="247" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="207" end1="208" start2="252" end2="253" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="209" end1="211" start2="254" end2="256" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="216" end1="217" start2="261" end2="262" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="218" end1="220" start2="263" end2="265" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="224" end1="226" start2="269" end2="271" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="227" end1="229" start2="272" end2="279" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="247" end1="247" start2="297" end2="298" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="277" end1="278" start2="328" end2="328" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="279" end1="280" start2="329" end2="329" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="282" end1="284" start2="331" end2="338" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="285" end1="286" start2="339" end2="343" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="310" end1="311" start2="367" end2="378" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="314" end1="317" start2="381" end2="384" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="328" end1="328" start2="395" end2="397" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="329" end1="330" start2="398" end2="398" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="340" end1="341" start2="408" end2="409" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="345" end1="346" start2="413" end2="419" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="351" end1="352" start2="424" end2="425" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="358" end1="359" start2="431" end2="432" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="362" end1="362" start2="435" end2="440" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="368" end1="371" start2="446" end2="446" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="378" end1="381" start2="453" end2="453" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="389" end1="391" start2="461" end2="461" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="398" end1="399" start2="468" end2="470" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="404" end1="405" start2="475" end2="475" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="415" end1="416" start2="485" end2="486" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="417" end1="418" start2="487" end2="488" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="430" end1="430" start2="500" end2="501" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="434" end1="434" start2="505" end2="510" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="444" end1="444" start2="520" end2="521" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="445" end1="447" start2="522" end2="524" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="448" end1="455" start2="525" end2="526" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="459" end1="475" start2="530" end2="530" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="498" end1="498" start2="553" end2="557" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="520" end1="521" start2="579" end2="594" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="524" end1="525" start2="597" end2="598" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="527" end1="528" start2="600" end2="601" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="530" end1="531" start2="603" end2="604" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="538" end1="552" start2="611" end2="626" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="557" end1="558" start2="631" end2="632" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="585" end1="586" start2="659" end2="675" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="597" end1="604" start2="686" end2="687" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="608" end1="611" start2="691" end2="691" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="639" end1="639" start2="719" end2="733" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="649" end1="650" start2="743" end2="751" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="651" end1="653" start2="752" end2="754" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="656" end1="657" start2="757" end2="758" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="658" end1="660" start2="759" end2="768" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="663" end1="663" start2="771" end2="778" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="668" end1="670" start2="783" end2="785" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="673" end1="674" start2="788" end2="796" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="675" end1="677" start2="797" end2="816" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="682" end1="683" start2="821" end2="822" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="687" end1="687" start2="826" end2="833" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="689" end1="691" start2="835" end2="837" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="697" end1="697" start2="843" end2="857" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="700" end1="701" start2="860" end2="861" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="704" end1="705" start2="864" end2="865" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="706" end1="708" start2="866" end2="868" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="713" end1="715" start2="873" end2="875" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="721" end1="722" start2="881" end2="882" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-        <range start1="723" end1="732" start2="883" end2="890" changelist="930206f8-ffc5-4501-8e79-d0fa889c3355" />
-      </ranges>
-    </file>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -503,14 +438,6 @@
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="luokine-springcloud-user" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="luokine-user-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="luokine-user-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
@@ -620,8 +547,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571829320899" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571883165248" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../luokine-springcloud-common" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -641,6 +568,7 @@
       <recent name="com.luokine.user.service.service.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ide-workspace\luokine-springcloud-project\luokine-springcloud-user\luokine-user-service\src\main\resources\sql" />
       <recent name="D:\ide-workspace\luokine-springcloud-project\luokine-springcloud-user\luokine-user-core\src\main\resources" />
       <recent name="D:\ide-workspace\luokine-springcloud-project\luokine-springcloud-user\luokine-user-service\src\main\resources" />
       <recent name="D:\ide-workspace\luokine-springcloud-user\luokine-user-service\src\main\resources" />
@@ -705,7 +633,7 @@
       <workItem from="1568970896716" duration="1584000" />
       <workItem from="1568972781365" duration="1960000" />
       <workItem from="1571109112846" duration="8160000" />
-      <workItem from="1571648079883" duration="56973000" />
+      <workItem from="1571648079883" duration="58436000" />
     </task>
     <task id="LOCAL-00001" summary="增加swagger配置">
       <created>1571134993062</created>
@@ -732,12 +660,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94347000" />
+    <option name="totallyTimeSpent" value="95810000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32349786" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32349786" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -747,7 +676,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33936653" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946353" visible="true" weight="0.45135745" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946353" visible="true" weight="0.29072398" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.28878823" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -764,7 +693,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.37768242" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="5" visible="true" weight="0.37768242" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -850,13 +779,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/luokine-user-core/src/main/java/com/luokine/user/dao/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/service/impl/BaseServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -1162,13 +1084,6 @@
         <state relative-caret-position="-750" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/luokine-user-entity/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -1248,7 +1163,7 @@
     <entry file="file://$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/config/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="821">
-          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#862#863#0" expanded="true" />
@@ -1259,13 +1174,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-user-service/src/main/resources/sql/luokine_user_10-23.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/luokine-user-service/src/main/java/com/luokine/user/service/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state relative-caret-position="390">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
         </state>
       </provider>
     </entry>

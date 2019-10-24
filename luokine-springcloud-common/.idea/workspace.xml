@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec89406d-76ca-40ba-bff3-594e77565c84" name="Default Changelist" comment="">
+    <list default="true" id="24ab404d-3fe0-4fd9-9609-e255d13f9c0c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/.idea/misc.xml" beforeDir="false" />
@@ -67,17 +67,21 @@
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/luokine-springcloud-commom.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-commom/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-consumer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-consumer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luokine-springcloud-eureka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-eureka/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-provider/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-provider/build/luokine-provider-service.json" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-provider/build/luokine-provider-service.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/build/luokine-user-service.json" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/build/luokine-user-service.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../luokine-springcloud-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luokine-springcloud-user/pom.xml" afterDir="false" />
     </list>
-    <list id="f843ac23-8d07-438b-bd29-934b32e81f7a" name="ignore" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/luokine-eureka-service/target/" />
-    <ignored path="$PROJECT_DIR$/luokine-register-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/luokine-common-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/luokine-common-swagger/target/" />
+    <ignored path="$PROJECT_DIR$/luokine-common-orm/target/" />
+    <ignored path="$PROJECT_DIR$/luokine-common-core/target/" />
+    <ignored path="$PROJECT_DIR$/luokine-common-model/target/" />
+    <ignored path="$PROJECT_DIR$/luokine-common-security/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,143 +89,183 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="629657015">
+    <session id="-2105243840">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.41" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.63" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="iml" value="2" />
-          <entry key="java" value="2" />
-          <entry key="properties" value="1" />
-          <entry key="xml" value="3" />
-          <entry key="yaml" value="1" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="15" />
+          <entry key="xml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="2" />
-          <entry key="Properties" value="1" />
-          <entry key="XML" value="3" />
-          <entry key="YAML" value="1" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="15" />
+          <entry key="XML" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3" />
-          <entry key="yaml" value="115" />
+          <entry key="java" value="26" />
+          <entry key="xml" value="303" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3" />
-          <entry key="YAML" value="115" />
+          <entry key="JAVA" value="26" />
+          <entry key="XML" value="303" />
         </counts>
       </usages-collector>
     </session>
-    <session id="1847293998">
+    <session id="640585523">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.2" value="3" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="txt" value="2" />
+          <entry key="iml" value="1" />
+          <entry key="pom" value="1" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="txt" value="23" />
+          <entry key="xml" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="XML" value="33" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/luokine-register-eureka/src/main/java/com/luokine/eureka/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/luokine-register-eureka/src/main/resources/pom1.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="112" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/luokine-register-eureka/src/main/resources/pom2.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/luokine-register-eureka/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/luokine-register-eureka/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            <state relative-caret-position="390">
+              <caret line="83" column="53" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-450" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/luokine-common-swagger/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/luokine-springcloud-commom.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/luokine-common-core/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-150">
+              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/luokine-common-security/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/luokine-common-orm/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/luokine-common-model/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="31" column="43" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/luokine-common-security/src/main/java/config/SecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="15" column="64" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#958#959#0" expanded="true" />
+                <element signature="e#1007#1008#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/luokine-common-eureka/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
+    <findStrings>
+      <find>lom</find>
+      <find>fastjson</find>
+      <find>fast</find>
+      <find>starter-openfeign</find>
+      <find>openfeign</find>
+      <find>spring-boot-starter-jdbc</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -229,6 +273,8 @@
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
       <map>
+        <entry key="$PROJECT_DIR$/../MybatisTest" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../opengas-master-data" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../opengas-payment" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../opengas-permission" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../opengas-usercenter" value="PREVIEW" />
@@ -238,12 +284,30 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/luokine-register-eureka/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/luokine-register-eureka/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/luokine-register-eureka/src/main/java/com/luokine/eureka/LuokineRegisterApplication.java" />
-        <option value="$PROJECT_DIR$/luokine-register-eureka/src/main/java/com/luokine/eureka/Application.java" />
-        <option value="$PROJECT_DIR$/luokine-register-eureka/src/main/resources/pom1.txt" />
-        <option value="$PROJECT_DIR$/luokine-register-eureka/src/main/resources/pom2.txt" />
+        <option value="$PROJECT_DIR$/luokine-common-model/src/main/java/Result.java" />
+        <option value="$PROJECT_DIR$/luokine-common-model/src/main/java/com/luokine/common/model/bo/UpdateResult.java" />
+        <option value="$PROJECT_DIR$/luokine-common-model/src/main/java/com/luokine/common/model/bo/FieldErrorInfo.java" />
+        <option value="$PROJECT_DIR$/luokine-common-model/src/main/java/com/luokine/common/model/page/QueryPageParam.java" />
+        <option value="$PROJECT_DIR$/luokine-common-model/src/main/java/com/luokine/common/model/page/QueryPageResult.java" />
+        <option value="$PROJECT_DIR$/luokine-common-model/src/main/java/com/luokine/common/model/Resp.java" />
+        <option value="$PROJECT_DIR$/luokine-common-orm/src/main/java/MyBatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/luokine-common-orm/src/main/java/com/luokine/common/orm/MyBatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/luokine-common-orm/src/main/java/com/luokine/common/orm/config/MyBatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/luokine-common-orm/src/main/java/com/luokine/common/orm/service/BaseService.java" />
+        <option value="$PROJECT_DIR$/luokine-common-model/src/main/java/com/luokine/common/model/enums/ResponseCodeEnum.java" />
+        <option value="$PROJECT_DIR$/luokine-common-model/src/main/java/com/luokine/common/model/Vo/Result.java" />
+        <option value="$PROJECT_DIR$/luokine-common-model/src/main/java/com/luokine/common/model/Vo/RestStatus.java" />
+        <option value="$PROJECT_DIR$/luokine-common-orm/src/main/java/com/luokine/common/orm/service/impl/BaseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/luokine-common-orm/src/main/java/com/luokine/common/orm/mapper/BaseMapper.java" />
+        <option value="$PROJECT_DIR$/luokine-common-core/src/main/java/com/luokine/common/core/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/luokine-common-security/src/main/java/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/luokine-common-swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/luokine-common-security/pom.xml" />
+        <option value="$PROJECT_DIR$/luokine-common-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/luokine-common-core/pom.xml" />
+        <option value="$PROJECT_DIR$/luokine-common-orm/pom.xml" />
+        <option value="$PROJECT_DIR$/luokine-common-model/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -271,107 +335,65 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="luokine-springcloud-eureka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="luokine-springcloud-eureka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="luokine-springcloud-eureka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
+          <item name="luokine-common-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="549" />
     <option name="y" value="154" />
     <option name="width" value="1040" />
     <option name="height" value="810" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="luokine-springcloud-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luokine-springcloud-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="luokine-springcloud-common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="luokine-springcloud-common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="luokine-springcloud-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luokine-springcloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="luokine-register-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="luokine-springcloud-common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="luokine-springcloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="luokine-common-core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="luokine-springcloud-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luokine-springcloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="luokine-register-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="luokine-springcloud-common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="luokine-springcloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="luokine-common-eureka" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="luokine-springcloud-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luokine-springcloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="luokine-register-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="luokine-springcloud-common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="luokine-springcloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="luokine-common-model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="luokine-springcloud-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luokine-springcloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="luokine-register-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luokine-springcloud-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luokine-springcloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="luokine-register-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luokine-springcloud-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luokine-springcloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="luokine-register-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="luokine-springcloud-common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="luokine-springcloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="luokine-common-orm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571623118056" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../luokine-springcloud-user" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571828912470" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -379,18 +401,19 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RestServicesNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="config" />
+      <recent name="com.luokine.common.orm.mapper" />
+      <recent name="com.luokine.common.orm.service.impl" />
+      <recent name="com.luokine.common.orm.service" />
+      <recent name="com.luokine.common.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ide-workspace\luokine-springcloud-commom\luokine-common-model\src\main\java\com\luokine\common\model" />
+    </key>
   </component>
   <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="SpringBootApplicationConfigurationType" />
-      </set>
-    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -401,69 +424,30 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.1487965" />
-  </component>
-  <component name="RunManager">
-    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eureka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.luokine.eureka.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luokine.eureka.App" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.App" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ec89406d-76ca-40ba-bff3-594e77565c84" name="Default Changelist" comment="" />
-      <changelist id="f843ac23-8d07-438b-bd29-934b32e81f7a" name="ignore" comment="" />
-      <created>1565748918546</created>
+      <changelist id="24ab404d-3fe0-4fd9-9609-e255d13f9c0c" name="Default Changelist" comment="" />
+      <created>1571649145065</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1565748918546</updated>
-      <workItem from="1565748923943" duration="5331000" />
-      <workItem from="1565773665027" duration="2200000" />
-      <workItem from="1566530471851" duration="1263000" />
-      <workItem from="1567672172228" duration="1936000" />
-      <workItem from="1568717747460" duration="8601000" />
-      <workItem from="1568950109150" duration="1780000" />
-      <workItem from="1571108378167" duration="2617000" />
-      <workItem from="1571223367147" duration="2273000" />
-      <workItem from="1571307954852" duration="984000" />
-      <workItem from="1571369983912" duration="1544000" />
-      <workItem from="1571648045815" duration="6598000" />
+      <updated>1571649145065</updated>
+      <workItem from="1571649150667" duration="23429000" />
+      <workItem from="1571882014271" duration="1060000" />
     </task>
-    <task id="LOCAL-00001" summary="添加 依赖pom.txt">
-      <created>1571396337640</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1571396337640</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35127000" />
+    <option name="totallyTimeSpent" value="24489000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2864807" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2054721" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -473,7 +457,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.09615385" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -481,22 +465,20 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.26357466" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.4061086" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3299356" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="5" visible="true" weight="0.27950644" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-      <window_info anchor="right" id="RestServices" order="10" weight="0.3299356" />
+      <window_info anchor="right" id="RestServices" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -505,53 +487,158 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加 依赖pom.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加 依赖pom.txt" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/luokine-eureka-service/src/main/java/luokine/eureka/service/ServiceApplication.java" />
-    <entry file="file://$PROJECT_DIR$/luokine-eureka-service/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/luokine-springcloud-eureka.iml" />
-    <entry file="file://$PROJECT_DIR$/luokine-register-eureka/src/main/java/com/luokine/eureka/App.java">
+    <entry file="file://$PROJECT_DIR$/luokine-common-model/src/main/java/com/luokine/common/model/bo/UpdateResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        <state relative-caret-position="181">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/luokine-register-eureka/pom.xml">
+    <entry file="file://$PROJECT_DIR$/luokine-common-model/src/main/java/com/luokine/common/model/bo/FieldErrorInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="150">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-common-model/src/main/java/com/luokine/common/model/page/QueryPageParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-common-model/src/main/java/com/luokine/common/model/page/QueryPageResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-common-orm/src/main/java/com/luokine/common/orm/config/MyBatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-common-model/src/main/java/com/luokine/common/model/Vo/Resp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-common-model/src/main/java/com/luokine/common/model/enums/ResponseCodeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-common-model/src/main/java/com/luokine/common/model/Vo/RestStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-common-model/src/main/java/com/luokine/common/model/Vo/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-common-orm/src/main/java/com/luokine/common/orm/service/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-common-orm/src/main/java/com/luokine/common/orm/service/impl/BaseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-common-orm/src/main/java/com/luokine/common/orm/mapper/BaseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-common-core/src/main/java/com/luokine/common/core/config/SecurityConfig.java" />
+    <entry file="file://$PROJECT_DIR$/luokine-common-security/src/main/java/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="64" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-springcloud-commom.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-common-swagger/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-common-security/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-common-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-common-eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-common-orm/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luokine-common-model/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="31" column="43" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/luokine-register-eureka/src/main/resources/pom1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="112" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/luokine-register-eureka/src/main/resources/pom2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/luokine-register-eureka/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="390">
+          <caret line="83" column="53" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="53" />
         </state>
       </provider>
     </entry>
