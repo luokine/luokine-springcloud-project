@@ -439,6 +439,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ConsumerApplication">
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="luokine-consumer-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.luokine.service.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="luokine-consumer-service" />
       <extension name="coverage">
@@ -462,6 +469,7 @@
     <list>
       <item itemvalue="Spring Boot.LuokineConsumerServiceApplication" />
       <item itemvalue="Spring Boot.ConsumerApplication" />
+      <item itemvalue="Spring Boot.App" />
     </list>
     <recent_temporary>
       <list>

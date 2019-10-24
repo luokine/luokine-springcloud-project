@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/luokine-user-api/luokine-user-api.iml" filepath="$PROJECT_DIR$/luokine-user-api/luokine-user-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/luokine-user-core/luokine-user-core.iml" filepath="$PROJECT_DIR$/luokine-user-core/luokine-user-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/luokine-user-entity/luokine-user-entity.iml" filepath="$PROJECT_DIR$/luokine-user-entity/luokine-user-entity.iml" />
+    </modules>
+  </component>
+</project>
