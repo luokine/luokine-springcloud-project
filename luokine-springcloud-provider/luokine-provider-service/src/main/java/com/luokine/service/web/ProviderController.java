@@ -1,14 +1,22 @@
 package com.luokine.service.web;
 
 import com.alibaba.fastjson.JSON;
-import com.luokine.api.service.ProviderApiService;
-import com.luokine.api.vo.SysUser;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.luokine.common.model.Vo.Resp;
+import com.luokine.provider.api.service.ProviderApiService;
+import com.luokine.provider.api.vo.SysUser;
+import com.luokine.provider.core.service.UserInfoService;
+import com.luokine.provider.entity.bean.UserInfo;
+import com.luokine.provider.entity.vo.UserRespVO;
+import com.luokine.provider.entity.vo.UserVo;
+import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections.CollectionUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,9 +31,11 @@ public class ProviderController implements ProviderApiService {
 
     private final Logger logger = LoggerFactory.getLogger(getClass());
 
+    @Autowired
+    private UserInfoService userInfoService;
+
     @Value("${server.port}")
     private String port;
-
 
     @Override
     public String providerHello() {
@@ -51,4 +61,18 @@ public class ProviderController implements ProviderApiService {
         logger.info("用户列表 -->logger：[{}]", JSON.toJSONString(list));
         return list;
     }
+
+    @Override
+    public Resp<IPage<UserInfo>> getUserListPage(UserVo user) {
+        IPage<UserInfo> listPage = userInfoService.getUserListPage(user);
+        return Resp.ok(listPage);
+    }
+
+    @Override
+    public UserRespVO getUserById(Integer id) {
+        UserRespVO user = userInfoService.getUserById(id);
+        return user;
+    }
+
+
 }

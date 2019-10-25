@@ -69,7 +69,7 @@ public class UserLoginController {
         if(token != null){
             map.put("message", "认证成功");
             map.put("token", token);
-            map.put("登录状态",login);
+            map.put("登录状态:",login);
         }
         return Resp.ok(map);
 
@@ -81,6 +81,13 @@ public class UserLoginController {
         List userList = sysUserService.getList();
         return userList;
 
+    }
+
+    @GetMapping("/getUserById")
+    @ApiOperation("根据Id获取用户")
+    public Resp<UserInfo> getUserList(@RequestParam Integer id){
+        UserInfo info = userService.getListById(id);
+        return Resp.ok(info);
     }
 
 }

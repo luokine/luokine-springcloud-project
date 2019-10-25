@@ -25,7 +25,7 @@ public class IntercepterConfig implements WebMvcConfigurer {
     public void addInterceptors(InterceptorRegistry registry) {
         List<String> excludePath = new ArrayList<>();
         excludePath.add("/user_register"); //注册
-        excludePath.add("/user/login"); //登录
+        excludePath.add("/user/login/**"); //登录
         excludePath.add("/logout"); //登出
         excludePath.add("/static/**");  //静态资源
         excludePath.add("/assets/**");  //静态资源
@@ -34,7 +34,7 @@ public class IntercepterConfig implements WebMvcConfigurer {
         excludePath.add("/webjars/**");
         excludePath.add("/v2/**");
         excludePath.add("*/api/v2/spans");
-//        excludePath.add("/swagger-ui.html/**");
+        excludePath.add("/swagger-ui.html/**");
         registry.addInterceptor(tokenInterceptor)
                 .addPathPatterns("/**")
                 .excludePathPatterns(excludePath);

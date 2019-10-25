@@ -4,6 +4,8 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/luokine-provider-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/luokine-provider-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/luokine-provider-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/luokine-provider-entity" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/luokine-provider-service" charset="UTF-8" />
   </component>
 </project>

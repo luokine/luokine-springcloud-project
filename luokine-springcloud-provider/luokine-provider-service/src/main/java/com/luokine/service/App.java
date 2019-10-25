@@ -1,8 +1,13 @@
 package com.luokine.service;
 
 import com.github.xiaoymin.swaggerbootstrapui.annotations.EnableSwaggerBootstrapUI;
+import lombok.extern.slf4j.Slf4j;
+import org.apache.ibatis.annotations.Mapper;
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
+import org.springframework.context.annotation.ComponentScan;
 
 /**
  * @author: tiantziquan
@@ -10,8 +15,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 @EnableSwaggerBootstrapUI
+@MapperScan(basePackages = "com.luokine.provider.core.dao", annotationClass = Mapper.class)
+@ComponentScan(basePackages = {"com.luokine.**"})
+@EnableFeignClients(basePackages = "com.luokine.*")
+@Slf4j
 public class App {
     public static void main(String[] args) {
         SpringApplication.run(App.class,args);
+        log.info("luokine-provider-service----------------> is start!");
     }
 }

@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.5.RELEASE</version>
+        <groupId>com.luokine.springcloud</groupId>
+        <artifactId>luokine-springcloud-common</artifactId>
+        <version>1.0-SNAPSHOT</version>
     </parent>
     <groupId>com.luokine.springcloud</groupId>
     <artifactId>luokine-springcloud-consumer</artifactId>
@@ -16,6 +16,7 @@
         <luokine-provider-client.version>2.0-SNAPSHOT</luokine-provider-client.version>
         <luokine-consumer-api.version>2.0-SNAPSHOT</luokine-consumer-api.version>
         <luokine-user-api.version>2.0-SNAPSHOT</luokine-user-api.version>
+        <luokine-provider-api.version>2.0-SNAPSHOT</luokine-provider-api.version>
     </properties>
     <modules>
         <module>luokine-consumer-service</module>
@@ -44,6 +45,11 @@
                 <groupId>com.luokine.springcloud</groupId>
                 <artifactId>luokine-user-api</artifactId>
                 <version>${luokine-user-api.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.luokine.springcloud</groupId>
+                <artifactId>luokine-provider-api</artifactId>
+                <version>${luokine-provider-api.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

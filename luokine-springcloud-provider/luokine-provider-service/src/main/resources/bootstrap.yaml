@@ -8,7 +8,8 @@ spring:
     password: admin
   profiles:
     include: swagger
-#  cloud:
+    active: dev
+  #  cloud:
 #    kubernetes:
 #      reload:
 #        mode: event

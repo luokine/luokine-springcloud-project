@@ -21,6 +21,14 @@
     <dependencies>
         <dependency>
             <groupId>com.luokine.springcloud</groupId>
+            <artifactId>luokine-common-model</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.luokine.springcloud</groupId>
+            <artifactId>luokine-provider-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.luokine.springcloud</groupId>
             <artifactId>luokine-user-api</artifactId>
         </dependency>
         <dependency>

@@ -78,8 +78,14 @@ public class UserServiceImpl extends BaseServiceImpl<UserMapper, UserInfo> imple
     @Override
     public UserInfo getUserInfoByName(String name) {
         QueryWrapper<UserInfo> queryWrapper=new QueryWrapper<>();
-        queryWrapper.equals("name");
+        queryWrapper.equals(name);
         UserInfo one = this.getOne(queryWrapper);
         return one;
+    }
+
+    @Override
+    public UserInfo getListById(Integer id) {
+
+        return userMapper.getListById(id);
     }
 }

@@ -8,21 +8,33 @@ eureka:
       defaultZone: http://127.0.0.1:8761/eureka/
   instance:
     prefer-ip-address: true
+ribbon:
+  eureka:
+    enabled: true
 feign:
   client:
     config:
       default:
         connectTimeout: 6000
         readTimeout: 6000
-#spring:
-#  application:
-#    name: luokine-provider-service
-#  rabbitmq:
-#    host: localhost
-#    port: 5672
-#    username: admin
-#    password: admin
-#    virtual-host: /
-#    listener:
-#      simple:
-#        acknowledge-mode: manual
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/luokine_user?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: root
+mybatis-plus:
+  type-aliases-package: com.luokine.provider.entity.bean
+  mapper-locations: classpath*:mapping/**/*Mapper.xml
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+logging:
+  file: logs/spring-boot-logging.log
+  level:
+    com.luokine.provider.core.dao: debug
+    org:
+      spring:
+        springboot:
+          dao: DEBUG
+      springframework: WARN

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.luokine.springcloud</groupId>
+        <artifactId>luokine-springcloud-basic</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.luokine.springcloud</groupId>
+    <artifactId>luokine-basic-service</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <!--<luokine-common-core.version>1.0-SNAPSHOT</luokine-common-core.version>-->
+        <!--<luokine-common-orm.version>1.0-SNAPSHOT</luokine-common-orm.version>-->
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.luokine.springcloud</groupId>
+            <artifactId>luokine-basic-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.luokine.springcloud</groupId>
+            <artifactId>luokine-common-core</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.luokine.springcloud</groupId>
+                    <artifactId>luokine-common-security</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.luokine.springcloud</groupId>
+            <artifactId>luokine-common-eureka</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.luokine.springcloud</groupId>
+            <artifactId>luokine-common-swagger</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.luokine.springcloud</groupId>
+            <artifactId>luokine-common-orm</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.luokine.springcloud</groupId>
+            <artifactId>luokine-common-model</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>net.logstash.logback</groupId>
+            <artifactId>logstash-logback-encoder</artifactId>
+            <version>5.3</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <skipTests>true</skipTests>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

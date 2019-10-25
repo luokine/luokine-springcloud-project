@@ -22,6 +22,10 @@
     <dependencies>
         <dependency>
             <groupId>com.luokine.springcloud</groupId>
+            <artifactId>luokine-common-eureka</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.luokine.springcloud</groupId>
             <artifactId>luokine-common-core</artifactId>
         </dependency>
         <dependency>
@@ -31,6 +35,10 @@
         <dependency>
             <groupId>com.luokine.springcloud</groupId>
             <artifactId>luokine-common-orm</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.luokine.springcloud</groupId>
+            <artifactId>luokine-provider-api</artifactId>
         </dependency>
         <!--<dependency>-->
             <!--<groupId>org.springframework.security</groupId>-->

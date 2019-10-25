@@ -4,7 +4,7 @@
 
     <!-- 通用查询映射结果 -->
     <resultMap id="BaseResultMap" type="com.luokine.user.bean.UserInfo">
-        <id column="user_id" property="userId"  />
+        <id column="user_id" property="userId" />
         <result column="user_name" property="userName" />
         <result column="password" property="password" />
         <result column="del_flag" property="delFlag" />
@@ -22,6 +22,18 @@
         WHERE
             1 = 1
         AND del_flag = 0
+    </select>
+    <select id="getListById"  resultType="com.luokine.user.bean.UserInfo">
+        SELECT
+            ui.user_id,
+            ui.user_name,
+            ui.create_time
+        FROM
+            user_info ui
+        WHERE
+            1 = 1
+        AND del_flag = 0
+        AND ui.user_id =#{id}
     </select>
 
 

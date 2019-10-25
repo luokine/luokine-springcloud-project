@@ -1,6 +1,6 @@
 package com.luokine.client;
 
-import com.luokine.api.service.ProviderApiService;
+import com.luokine.provider.api.service.ProviderApiService;
 import org.springframework.cloud.openfeign.FeignClient;
 
 /**

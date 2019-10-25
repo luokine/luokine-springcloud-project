@@ -23,6 +23,10 @@ spring:
     url: jdbc:mysql://localhost:3306/luokine_user?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8
     username: root
     password: root
+#  security:
+#    user:
+#      name: user
+#      password: user
 mybatis-plus:
   type-aliases-package: com.luokine.user.bean
   mapper-locations: classpath*:mapping/**/*Mapper.xml
@@ -31,3 +35,6 @@ mybatis-plus:
 logging:
   level:
     com.luokine.user.dao: debug
+ribbon:
+  eureka:
+    enabled: true

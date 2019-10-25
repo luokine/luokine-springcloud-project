@@ -1,0 +1,24 @@
+spring:
+  swagger:
+    licenseUrl: https://www.apache.org/licenses/LICENSE-2.0.html
+    license: Apache License, Version 2.0
+    termsOfServiceUrl: https://github.com/dyc87112/spring-boot-starter-swagger
+    contact:
+      name: '基础服务'
+      email: 767050075@qq.com
+      url: http://localhost:8002/doc.html
+    description: '基础服务接口'
+    base-package: com.luokine.service.web
+    title: '基础服务'
+    version: 2.0
+    global-operation-parameters:
+      - name: Authorization
+        description: '授权请求Token，例如：Authorization: Bearer 234555555555555， `234555555555555` 为Token值'
+        parameterType: header
+        modelRef: string
+        required: true
+      - name: User-Info
+        description: '请求范围（provider、user）'
+        parameterType: header
+        modelRef: string
+        required: false

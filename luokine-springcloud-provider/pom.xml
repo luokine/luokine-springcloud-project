@@ -8,6 +8,8 @@
         <module>luokine-provider-service</module>
         <module>luokine-provider-api</module>
         <module>luokine-provider-client</module>
+        <module>luokine-provider-core</module>
+        <module>luokine-provider-entity</module>
     </modules>
 
     <parent>
@@ -21,27 +23,17 @@
     <name>luokine-springcloud-provider</name>
     <properties>
         <luokine.provider.api.version>2.0-SNAPSHOT</luokine.provider.api.version>
-        <springfox.swagger2.version>2.8.0</springfox.swagger2.version>
+        <luokine.provider.core.version>2.0-SNAPSHOT</luokine.provider.core.version>
+        <luokine.provider.entity.version>2.0-SNAPSHOT</luokine.provider.entity.version>
     </properties>
     <dependencies>
-        <!--<dependency>-->
-            <!--<groupId>luokine-springcloud-consumer</groupId>-->
-            <!--<artifactId>luokine-springcloud-consumer</artifactId>-->
-            <!--<version>1.0-SNAPSHOT</version>-->
-        <!--</dependency>-->
-        <dependency>
-            <groupId>org.apache.directory.studio</groupId>
-            <artifactId>org.apache.commons.collections</artifactId>
-            <version>3.2.1</version>
-        </dependency>
-
     </dependencies>
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.projectlombok</groupId>
-                <artifactId>lombok</artifactId>
-                <version>1.18.6</version>
+                <groupId>com.luokine.springcloud</groupId>
+                <artifactId>luokine-provider-core</artifactId>
+                <version>${luokine.provider.core.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
@@ -53,11 +45,16 @@
                 <artifactId>luokine-provider-api</artifactId>
                 <version>${luokine.provider.api.version}</version>
             </dependency>
-            <!--<dependency>-->
-                <!--<groupId>io.springfox</groupId>-->
-                <!--<artifactId>springfox-swagger2</artifactId>-->
-                <!--<version>${springfox.swagger2.version}</version>-->
-            <!--</dependency>-->
+            <dependency>
+                <groupId>com.luokine.springcloud</groupId>
+                <artifactId>luokine-provider-entity</artifactId>
+                <version>${luokine.provider.entity.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.directory.studio</groupId>
+                <artifactId>org.apache.commons.collections</artifactId>
+                <version>3.2.1</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

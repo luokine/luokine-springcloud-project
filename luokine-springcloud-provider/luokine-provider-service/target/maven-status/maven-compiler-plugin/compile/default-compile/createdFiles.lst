@@ -1,7 +1,0 @@
-com\luokine\service\ProviderAapplication.class
-com\luokine\service\common\Receiver.class
-com\luokine\service\common\Sender.class
-com\luokine\service\config\RabbitConfig.class
-com\luokine\service\web\ChannelsController.class
-com\luokine\service\web\ProviderController.class
-com\luokine\service\common\RabbitMQPKG.class

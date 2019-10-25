@@ -29,25 +29,36 @@ public class SysUserServiceImpl implements SysUserService {
     public boolean login(SysUser user) {
         String username = user.getUsername();
 //        String password = passwordEncoder.encode(user.getPassword());
-        List<UserInfo> list = userService.getUserInfoList();
-        if (CollectionUtils.isEmpty(list)) {
-            return false;
+        UserInfo info = userService.getUserInfoByName(user.getUsername());
+        boolean login=false;
+        if(info.equals(null)){
+            return login;
         }
-        boolean b = false;
-        for (UserInfo sysUser : list) {
-            boolean matche1 = passwordEncoder.matches(user.getPassword(),sysUser.getPassword());
-            boolean matche2 = false;
-            if (sysUser.getUserName().equals(username)) {
-                matche2 = true;
-            }
-            if (matche1 && matche2) {
-                b = true;
-                break;
-            }
+        login=passwordEncoder.matches(user.getPassword(),info.getPassword());
+        login=user.getUsername().equals(info.getUserName());
+        if(login){
+            return login;
         }
-        if (b) {
-            return true;
-        }
+
+//        List<UserInfo> list = userService.getUserInfoList();
+//        if (CollectionUtils.isEmpty(list)) {
+//            return false;
+//        }
+//        boolean b = false;
+//        for (UserInfo sysUser : list) {
+//            boolean matche1 = passwordEncoder.matches(user.getPassword(),sysUser.getPassword());
+//            boolean matche2 = false;
+//            if (sysUser.getUserName().equals(username)) {
+//                matche2 = true;
+//            }
+//            if (matche1 && matche2) {
+//                b = true;
+//                break;
+//            }
+//        }
+//        if (b) {
+//            return true;
+//        }
         return false;
     }
 
