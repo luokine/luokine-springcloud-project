@@ -25,11 +25,23 @@
         <luokine.provider.api.version>2.0-SNAPSHOT</luokine.provider.api.version>
         <luokine.provider.core.version>2.0-SNAPSHOT</luokine.provider.core.version>
         <luokine.provider.entity.version>2.0-SNAPSHOT</luokine.provider.entity.version>
+        <luokine.basic.api.version>1.0-SNAPSHOT</luokine.basic.api.version>
+        <luokine.basic.entity.version>1.0-SNAPSHOT</luokine.basic.entity.version>
     </properties>
     <dependencies>
     </dependencies>
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>com.luokine.springcloud</groupId>
+                <artifactId>luokine-basic-api</artifactId>
+                <version>${luokine.basic.api.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.luokine.springcloud</groupId>
+                <artifactId>luokine-basic-entity</artifactId>
+                <version>${luokine.basic.entity.version}</version>
+            </dependency>
             <dependency>
                 <groupId>com.luokine.springcloud</groupId>
                 <artifactId>luokine-provider-core</artifactId>

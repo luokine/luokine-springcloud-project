@@ -24,6 +24,10 @@
             <artifactId>mybatis-plus</artifactId>
             <version>3.0.7.1</version>
         </dependency>
+        <dependency>
+            <groupId>com.luokine.springcloud</groupId>
+            <artifactId>luokine-basic-entity</artifactId>
+        </dependency>
         <!--<dependency>-->
             <!--<groupId>com.baomidou</groupId>-->
             <!--<artifactId>mybatis-plus-annotation</artifactId>-->

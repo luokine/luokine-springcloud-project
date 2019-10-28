@@ -1,6 +1,7 @@
 package com.luokine.service;
 
 import com.github.xiaoymin.swaggerbootstrapui.annotations.EnableSwaggerBootstrapUI;
+import com.luokine.basic.api.UserRoleServiceClient;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.ibatis.annotations.Mapper;
 import org.mybatis.spring.annotation.MapperScan;
@@ -15,9 +16,9 @@ import org.springframework.context.annotation.ComponentScan;
  */
 @SpringBootApplication
 @EnableSwaggerBootstrapUI
-@MapperScan(basePackages = "com.luokine.provider.core.dao", annotationClass = Mapper.class)
-@ComponentScan(basePackages = {"com.luokine.**"})
-@EnableFeignClients(basePackages = "com.luokine.*")
+@MapperScan(basePackages = "com.luokine", annotationClass = Mapper.class)
+@ComponentScan(basePackages = {"com.luokine"})
+@EnableFeignClients(basePackageClasses = {UserRoleServiceClient.class})
 @Slf4j
 public class App {
     public static void main(String[] args) {
