@@ -46,13 +46,15 @@ public class UserServiceImpl extends BaseServiceImpl<UserMapper, UserInfo> imple
     }
 
     @Override
-    public Resp<Boolean> batchInsertUser() {
+    public Resp<Boolean> batchInsertUser(Integer num,Integer index) {
+        if(num.equals(0)){
+            return Resp.ok(true).setMessage("num为零");
+        }
         List<UserInfo> userList = Lists.newArrayList();
-        int num = 25;
         for (int i = 1; i <= num; i++) {
             UserInfo user = new UserInfo();
-            user.setUserId(i);
-            user.setUserName("luokine" + Integer.valueOf(i).toString());
+            user.setUserId(i+index);
+            user.setUserName("luokine" + Integer.valueOf(i+index).toString());
             user.setPassword(passwordEncoder.encode("123456"));
             user.setDelFlag(Integer.valueOf(0).byteValue());
             user.setCreateTime(new Date());

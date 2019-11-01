@@ -12,6 +12,8 @@ import com.luokine.user.service.utils.TokenUtil;
 import com.luokine.user.service.SysUserService;
 import com.luokine.user.service.UserService;
 import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -54,8 +56,12 @@ public class UserLoginController {
 
     @GetMapping("/addUser")
     @ApiOperation("批量添加用户")
-    public Resp<Boolean> addUserBatch(){
-        Resp<Boolean> b = userService.batchInsertUser();
+    @ApiImplicitParams({
+            @ApiImplicitParam(value="添加数量",name="num",dataType="integer",required=true,defaultValue="0"),
+            @ApiImplicitParam(value="从什么位置开始添加",name="index",dataType="integer",required=true,defaultValue="0")
+    })
+    public Resp<Boolean> addUserBatch(@RequestParam Integer num,@RequestParam Integer index){
+        Resp<Boolean> b = userService.batchInsertUser(num,index);
         return b;
     }
 

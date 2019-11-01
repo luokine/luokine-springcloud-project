@@ -13,7 +13,7 @@ public interface UserService extends BaseService<UserInfo> {
 
     IPage<UserInfo> getUserList(UserVo user);
 
-    Resp<Boolean> batchInsertUser();
+    Resp<Boolean> batchInsertUser(Integer num,Integer index);
 
     List<UserInfo> getUserInfoList();
 
