@@ -27,6 +27,7 @@
         <dependency>
             <groupId>com.luokine.springcloud</groupId>
             <artifactId>luokine-basic-entity</artifactId>
+            <!--<scope>runtime</scope>-->
         </dependency>
         <!--<dependency>-->
             <!--<groupId>com.baomidou</groupId>-->

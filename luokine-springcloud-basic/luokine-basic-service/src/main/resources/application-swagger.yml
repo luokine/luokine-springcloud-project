@@ -8,7 +8,7 @@ spring:
       email: 767050075@qq.com
       url: http://localhost:8002/doc.html
     description: '基础服务接口'
-    base-package: com.luokine.service.web
+    base-package: com.luokine.basic.service.controller
     title: '基础服务'
     version: 2.0
     global-operation-parameters:

@@ -42,7 +42,7 @@ public class UserRoleController {
         return Resp.ok(list);
     }
 
-    @PostMapping("/getRolePageList")
+    @PostMapping("/getRolePageList2")
     @ApiOperation("获取角色 list")
     public List<UserRole> getRoleList(@RequestBody UserRoleReqVo vo) {
         List<UserRole> list = userRoleService.list();

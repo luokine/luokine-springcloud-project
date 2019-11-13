@@ -47,8 +47,9 @@ public class UserRoleController {
 
     @PostMapping("/basic/getRolePage3")
     @ApiOperation("分页获取角色 resp")
-    Resp<Page<UserRole>> getRolePageList(@RequestBody UserRoleReqVo vo){
-        return userRoleServiceClient.getPageRoleList(vo);
+    Resp<List<UserRole>> getRolePageList(@RequestBody UserRoleReqVo vo){
+        Resp<List<UserRole>> pageList = userRoleServiceClient.getRolePageList(vo);
+        return pageList;
     }
 
     @PostMapping("/basic/getRolePageList")
@@ -60,11 +61,11 @@ public class UserRoleController {
 
     }
 
-    @GetMapping("/basic/getRolePageList2")
-    @ApiOperation("获取角色 list")
-    public List<UserRole> getRoleList(){
-        return roleService.getRoleList();
-    }
+//    @GetMapping("/basic/getRolePageList2")
+//    @ApiOperation("获取角色 list")
+//    public List<UserRole> getRoleList(){
+//        return roleService.getRoleList();
+//    }
 
     @GetMapping("/basic/getRoleById")
     @ApiOperation("获取角色 id")

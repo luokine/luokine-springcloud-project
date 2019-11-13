@@ -44,9 +44,9 @@ public class RoleService {
 
     }
 
-    public List<UserRole> getRoleList() {
-        return userRoleServiceClient.getRoleList();
-    }
+//    public List<UserRole> getRoleList() {
+//        return userRoleServiceClient.getRoleList();
+//    }
 
     public UserRole getRoleById(@RequestParam Integer id) {
         UserRole role = userRoleServiceClient.getRoleById(id);
