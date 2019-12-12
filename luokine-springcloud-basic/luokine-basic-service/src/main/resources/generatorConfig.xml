@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="GBK"?>
+<!--
+  ~ The MIT License (MIT)
+  ~
+  ~ Copyright (c) 2014-2017 abel533@gmail.com
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in
+  ~ all copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+  ~ THE SOFTWARE.
+  -->
+
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<!--suppress MybatisGenerateCustomPluginInspection -->
+<generatorConfiguration>
+    <context id="Mysql" targetRuntime="MyBatis3Simple" defaultModelType="flat">
+
+        <!-- mapper 路径 -->
+        <property name="userMapperTargetPackage" value="com.luokine.basic.core.dao"/>
+        <!-- service 路径 -->
+        <property name="userServiceTargetPackage" value="com.luokine.basic.core.service"/>
+        <!-- serviceImpl 路径 -->
+        <property name="userServiceImplTargetPackage" value="com.luokine.basic.core.service.impl"/>
+
+
+        <property name="javaFileEncoding" value="UTF-8"/>
+        <property name="useMapperCommentGenerator" value="true"/>
+
+        <plugin type="com.luokine.common.generator.MapperPlugin">
+            <property name="mappers" value="tk.mybatis.mapper.common.Mapper"/>
+            <property name="caseSensitive" value="true"/>
+            <property name="forceAnnotation" value="true"/>
+            <property name="generateColumnConsts" value="true"/>
+            <property name="generateDefaultInstanceMethod" value="true"/>
+            <property name="beginningDelimiter" value=""/>
+            <property name="endingDelimiter" value=""/>
+            <!--使用Data注解时，Getter,Setter,ToString,EqualsAndHashCode注解无效-->
+            <!--<property name="lombok" value="Data,Accessors"/>-->
+            <property name="lombok" value="Getter,Setter,ToString,Accessors,EqualsAndHashCode"/>
+            <property name="lombokEqualsAndHashCodeCallSuper" value="false"/>
+            <property name="swagger" value="false"/>
+        </plugin>
+
+        <!--通用代码生成器插件-->
+        <!--mapper接口-->
+        <plugin type="com.luokine.common.generator.TemplateFilePlugin">
+            <property name="targetProject" value="luokine-basic-core/src/main/java"/>
+            <property name="targetPackage" value="${userMapperTargetPackage}"/>
+            <property name="templatePath" value="genFtl/mapper.ftl"/>
+            <property name="mapperSuffix" value="Mapper"/>
+            <property name="fileName" value="${tableClass.shortClassName}${mapperSuffix}.java"/>
+            <property name="baseMapper" value="BaseMapper"/>
+        </plugin>
+        <!--通用代码生成器插件-->
+        <!--service 接口-->
+        <plugin type="com.luokine.common.generator.TemplateFilePlugin">
+            <property name="targetProject" value="luokine-basic-core/src/main/java"/>
+            <property name="targetPackage" value="${userServiceTargetPackage}"/>
+            <property name="templatePath" value="genFtl/service.ftl"/>
+            <property name="serviceSuffix" value="Service"/>
+            <property name="fileName" value="${tableClass.shortClassName}${serviceSuffix}.java"/>
+            <property name="commonService" value="CommonService"/>
+        </plugin>
+        <!--通用代码生成器插件-->
+        <!--serviceImpl 实现-->
+        <plugin type="com.luokine.common.generator.TemplateFilePlugin">
+            <property name="targetProject" value="luokine-basic-core/src/main/java"/>
+            <property name="targetPackage" value="${userServiceImplTargetPackage}"/>
+            <property name="templatePath" value="genFtl/serviceImpl.ftl"/>
+            <property name="serviceImplSuffix" value="ServiceImpl"/>
+            <property name="fileName" value="${tableClass.shortClassName}${serviceImplSuffix}.java"/>
+            <property name="CommonServiceImpl" value="CommonServiceImpl"/>
+            <property name="mapperSuffix" value="Mapper"/>
+            <property name="userMapperTargetPackage" value="${userMapperTargetPackage}"/>
+            <property name="serviceSuffix" value="Service"/>
+        </plugin>
+        <!--mapper.xml-->
+<!--        <plugin type="com.ecej.framework.platform.tools.generator.TemplateFilePlugin">-->
+<!--            <property name="targetProject" value="generator/src/test/java"/>-->
+<!--            <property name="targetPackage" value="test.mappers"/>-->
+<!--            <property name="mapperPackage" value="test.mapper"/>-->
+<!--            <property name="templatePath" value="generator/mapperXml.ftl"/>-->
+<!--            <property name="mapperSuffix" value="Dao"/>-->
+<!--            <property name="fileName" value="${tableClass.shortClassName}${mapperSuffix}.xml"/>-->
+<!--        </plugin>-->
+        <!--测试输出单个文件，每个表都会生成一个对应的文件-->
+<!--        <plugin type="com.ecej.framework.platform.tools.generator.TemplateFilePlugin">-->
+<!--            <property name="targetProject" value="main/src/test/java"/>-->
+<!--            <property name="targetPackage" value="test.one"/>-->
+<!--            <property name="templatePath" value="generator/test-one.ftl"/>-->
+<!--            <property name="fileName" value="${tableClass.shortClassName}Test.txt"/>-->
+<!--            &lt;!&ndash;默认值是下面这个，可以不配置&ndash;&gt;-->
+<!--            <property name="templateFormatter"-->
+<!--                      value="com.ecej.framework.platform.tools.generator.formatter.FreemarkerTemplateFormatter"/>-->
+<!--        </plugin>-->
+        <!--测试输出整个文件，所有表都可用，一次只生成一个文件，用于聚合所有表使用-->
+<!--        <plugin type="com.ecej.framework.platform.tools.generator.TemplateFilePlugin">-->
+<!--            <property name="singleMode" value="false"/>-->
+<!--            <property name="targetProject" value="main/src/test/java"/>-->
+<!--            <property name="targetPackage" value="test.all"/>-->
+<!--            <property name="templatePath" value="generator/test-all.ftl"/>-->
+<!--            <property name="fileName" value="All.txt"/>-->
+<!--        </plugin>-->
+
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/luokine_user?useUnicode=true&amp;characterEncoding=UTF-8&amp;allowMultiQueries=true&amp;useSSL=false&amp;serverTimezone=GMT%2B8"
+                        userId="root"
+                        password="root"/>
+
+        <javaModelGenerator targetPackage="com.luokine.basic.entity.bean" targetProject="luokine-basic-entity/src/main/java/"/>
+
+<!--        <table tableName="billing_forfeit_penalty_change" catalog="opengas_payment"></table>-->
+        <table tableName="user_login" catalog="luokine_user"></table>
+<!--        <table tableName="house_capital_flow_detail" catalog="opengas_payment"></table>-->
+<!--        <table tableName="counter_daily_settlement" catalog="opengas_payment"></table>-->
+<!--        <table tableName="counter_daily_settlement_detail" catalog="opengas_payment"></table>-->
+<!--        <table tableName="payment_refund_record" catalog="opengas_payment"></table>-->
+<!--        <table tableName="payment_refund_apply_record" catalog="opengas_payment"></table>-->
+<!--        <table tableName="billing_flow" catalog="opengas_payment"></table>-->
+<!--        <table tableName="payment_record" catalog="opengas_payment"></table>-->
+<!--        <table tableName="payment_pay_apply_record" catalog="opengas_payment"></table>-->
+<!--        <table tableName="payment_meter_account" catalog="opengas_payment"></table>-->
+<!--        <table tableName="payment_meter_account_balance_detail" catalog="opengas_payment"></table>-->
+<!--        <table tableName="payment_user_meter_account_rel" catalog="opengas_payment"></table>-->
+<!--        <table tableName="payment_meter_account_rel" catalog="opengas_payment"></table>-->
+    </context>
+</generatorConfiguration>
