@@ -8,8 +8,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.core.userdetails.UserDetailsService;
 
 /**
- * @author: tiantziquan
- * @create: 2019-10-23 17:23
+ * @author: tianziquan
  */
 @Configuration
 @EnableWebSecurity

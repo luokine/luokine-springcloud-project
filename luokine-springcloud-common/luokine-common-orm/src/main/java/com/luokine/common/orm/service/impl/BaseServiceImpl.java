@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
- * @author: tiantziquan
+ * @author: tianziquan
  * @create: 2019-10-21 19:31
  */
 public class BaseServiceImpl<K extends BaseMapper<T>, T> extends ServiceImpl<K, T> implements BaseService<T> {

@@ -5,8 +5,7 @@
 //import org.springframework.context.annotation.Configuration;
 //
 ///**
-// * @author: tiantziquan
-// * @create: 2019-10-22 15:17
+// * @author: tianziquan
 // */
 //@Configuration
 //public class MyBatisPlusConfig {

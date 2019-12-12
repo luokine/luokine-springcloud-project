@@ -1,8 +1,7 @@
 package com.luokine.common.model.bo;
 
 /**
- * @author: tiantziquan
- * @create: 2019-10-22 15:06
+ * @author: tianziquan
  */
 public class UpdateResult {
     private static final long serialVersionUID = 1L;

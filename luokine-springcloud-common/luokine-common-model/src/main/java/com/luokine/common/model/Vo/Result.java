@@ -5,8 +5,7 @@ import com.luokine.common.model.enums.ResponseCodeEnum;
 import java.io.Serializable;
 
 /**
- * @author: tiantziquan
- * @create: 2019-10-22 16:16
+ * @author: tianziquan
  */
 public class Result<T> implements Serializable {
     private static final long serialVersionUID = 1L;
