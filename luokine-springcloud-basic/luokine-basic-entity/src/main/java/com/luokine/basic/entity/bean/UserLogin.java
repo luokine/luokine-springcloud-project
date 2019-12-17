@@ -15,7 +15,7 @@ import lombok.experimental.Accessors;
 @ToString
 @EqualsAndHashCode
 @Accessors(chain = true)
-@Table(name = "user_login")
+@Table(name = "luokine_user.user_login")
 public class UserLogin {
     @Id
     @Column(name = "id")

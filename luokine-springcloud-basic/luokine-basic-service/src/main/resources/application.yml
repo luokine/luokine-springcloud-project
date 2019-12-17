@@ -5,7 +5,8 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: http://127.0.0.1:8761/eureka/
+#      defaultZone: http://127.0.0.1:8761/eureka/
+      defaultZone: http://192.168.6.128:8761/eureka/
   instance:
     prefer-ip-address: true
 ribbon:
@@ -32,7 +33,7 @@ mybatis-plus:
 logging:
   file: logs/spring-boot-logging.log
   level:
-    com.luokine.basic.core.dao: debug
+    com.luokine.basic.core.dao: info
     org:
       spring:
         springboot:

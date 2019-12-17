@@ -1,6 +1,7 @@
 package com.luokine.basic.service.controller;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.google.common.collect.Lists;
 import com.luokine.basic.core.service.UserLoginService;
 import com.luokine.basic.core.service.UserRoleService;
 import com.luokine.basic.entity.bean.UserLogin;
@@ -10,12 +11,12 @@ import com.luokine.common.model.Vo.Resp;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.collections.CollectionUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import tk.mybatis.mapper.entity.Example;
 
-import java.util.ArrayList;
+import java.io.Serializable;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -58,15 +59,26 @@ public class UserRoleController {
     @ApiOperation("获取角色 id")
     public UserRole getRoleById(@RequestParam Integer id) {
         UserRole user = userRoleService.getUserRoleById(id);
-        UserLogin userLogin = new UserLogin();
-        Example example = new Example(UserLogin.class);
-        Example.Criteria criteria = example.createCriteria();
-        criteria.andEqualTo(UserLogin.ID,1);
-        UserLogin one = userLoginService.getOne(example);
-        System.out.println("one = " + one);
+//        UserLogin userLogin = new UserLogin();
+//        Example example = new Example(UserLogin.class);
+//        Example.Criteria criteria = example.createCriteria();
+//        criteria.andEqualTo(UserLogin.ID,1);
+//        UserLogin one = userLoginService.getOne(example);
+//        System.out.println("one = " + one);
         return user;
     }
 
-
+    @GetMapping("/test")
+    @ApiOperation("测试")
+    public Resp<List<UserLogin>> getRoleById() {
+        UserLogin userLogin = new UserLogin();
+        Example example = new Example(UserLogin.class);
+        Example.Criteria criteria = example.createCriteria();
+        List<Integer> idList = Arrays.asList(new Integer[]{1, 2, 3, 4});
+        criteria.andIn(UserLogin.ID, idList);
+        List<UserLogin> list = userLoginService.list(example);
+        System.out.println("list = " + list);
+        return Resp.of(200,"获取测试数据成功",list);
+    }
 
 }
